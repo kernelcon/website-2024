@@ -14,7 +14,8 @@ class Scramble extends Component {
       "dvanced",
       "ugmented",
       "ndroid",
-      "narchy"
+      "narchy",
+      "rtistic"
     ]
 
     const i_scrambleTexts = [
@@ -24,7 +25,8 @@ class Scramble extends Component {
       "nformation",
       "nception",
       "nitiative",
-      "ntrusion"
+      "ntrusion",
+      "nspiration" 
     ]
 
     return (
