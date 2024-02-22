@@ -21,7 +21,7 @@ export default class CFP extends Component {
 							{/* Commented out becuase imbedded into OpenCalls */}
 							{/* <h3 className="title">Call for Papers</h3> */}
 
-				<h3 className='closed-text'>The Call for Papers for 2024 has closed. See you next year!</h3>
+				<h4 className='closed-text'>The 2024 Call for Papers has closed. See you next year!</h4>
 							<p className="tab-paragraph">TL;DR - submit via  {" "}
 								<a
 									href="https://forms.gle/hUdJG1FNGtvJZu1u6"
