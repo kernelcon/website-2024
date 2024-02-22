@@ -29,6 +29,8 @@ import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
 import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
 import TrailOfBitsDark from "../../static/images/sponsors/trailofbits-dark-mode.png"
 import TrailOfBitsLight from "../../static/images/sponsors/trailofbits-light-mode.png"
+import EvolvingSolDark from "../../static/images/sponsors/evolving-sol-dark-mode.png"
+import EvolvingSolLight from "../../static/images/sponsors/evolving-sol-light-mode.png"
 
 import "./Sponsors.scss";
 
@@ -298,25 +300,25 @@ export default class Sponsors extends Component {
                     </a> */}
                   </div>
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
-                    <a href="https://www.appgate.com/"
+                    <a href="http://www.evolvingsol.com/"
                           target="_blank"
                           rel='noopener noreferrer'
                           className='light-mode-logo'>
-                          <img src={AppGateDark}
+                          <img src={EvolvingSolLight}
                             className='spons-img other-spons'
-                            alt="AppGate"/>
+                            alt="Evolving Solutions"/>
                         </a>
-                        <a href="https://www.appgate.com/"
+                        <a href="http://www.evolvingsol.com/"
                           target="_blank"
                           rel='noopener noreferrer'
                           className='dark-mode-logo'>
-                          <img src={AppGateLight}
+                          <img src={EvolvingSolDark}
                             className='spons-img other-spons'
-                            alt="AppGate"/>
+                            alt="Evolving Solutions"/>
                         </a>
-                  </div> */}
+                  </div>
 
                   {/* <div className='spons-block'>
                     <h5 className='tin spons-title'>Tin</h5>
