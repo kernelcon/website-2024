@@ -135,3 +135,6 @@ dist
 
 # Don't commit CFP docs in multiple places
 public/cfp
+
+# No reason to commit this
+.DS_Store
