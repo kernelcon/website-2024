@@ -7,7 +7,7 @@ import Training from "../../static/images/icons/training.png";
 import Arm from "../../static/images/icons/arm.png";
 import Brain from "../../static/images/icons/brain.png";
 import Fun from "../../static/images/icons/fun.png";
-import wendy from "../../static/images/trainers/wendy.jpg";
+import Paul from "../../static/images/trainers/paul.jpg";
 
 import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
@@ -164,113 +164,115 @@ export default class Home extends Component {
                 <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
               </div> */}
 
+              <div className='pop'>
+                <AiPic pic={aiPicIndex} />
+              </div>
+
             </div>
+
+
             <div className="col right">
 
-            <span className='centered-top'>
-              <div className='order-button'>
-                <a
-                  className="cybr-btn btn-bottom"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://reg.kernelcon.org/e/2138619365">
-                  Register Now
-                  <span aria-hidden className="cybr-btn__glitch">
+              <span className='centered-top'>
+                <div className='order-button'>
+                  <a
+                    className="cybr-btn btn-bottom"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://reg.kernelcon.org/e/2138619365">
                     Register Now
-                  </span>
-                </a>
-              </div>
-                {/* <<img
-                  className="img-responsive"
-                  alt="future-is-now"
-                  src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
-                />
-                <p className="photo-credit">
-                  The Future Is Now by Josan Gonzalez
-                </p> */}
+                    <span aria-hidden className="cybr-btn__glitch">
+                      Register Now
+                    </span>
+                  </a>
+                </div>
+                  {/* <<img
+                    className="img-responsive"
+                    alt="future-is-now"
+                    src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
+                  />
+                  <p className="photo-credit">
+                    The Future Is Now by Josan Gonzalez
+                  </p> */}
               </span>
 
               <div className='pop'>
                 <Terminal />
               </div>
 
-              <div className='pop'>
-                <AiPic pic={aiPicIndex} />
-              </div>
 
               <div>
 
               
 
-              {/* <div className='updates'>
-                <h2>REGISTER</h2>
-                <div className='update-text'>
-                  <p>Registration is now open for tickets and all workshops!</p>
-                  <p>On-site registration will also be available, but register now to secure your portion of the limited availability of electronic badges, t-shirts, and more!</p>
-                </div>
-                <div className='sign-up-btn'>
-                  <Button href="/register" title="Register" />
-                </div>
-              </div> */}
-              
-
-              {/* <div className='theme-description'>
-                <h3>This year's theme is <span className='underline'>Science</span>.</h3> 
-                <p>Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today.</p>
-                <br />
-                <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
-              </div> */}
-
-              {/* <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/> */}
-              
-              
-              {/* <img src={ChemSet} alt="chemistry set"/> */}
-              
-              {/* <div className='keynote'>
-                <div className='keynote-header'>
-                  <div className='keynote-title'>
-                    Keynote Speaker:
+                {/* <div className='updates'>
+                  <h2>REGISTER</h2>
+                  <div className='update-text'>
+                    <p>Registration is now open for tickets and all workshops!</p>
+                    <p>On-site registration will also be available, but register now to secure your portion of the limited availability of electronic badges, t-shirts, and more!</p>
                   </div>
-                  <div className='keynote-speaker'>
-                    <div className='keynote-speaker-name'>
-                      Wendy Nather
+                  <div className='sign-up-btn'>
+                    <Button href="/register" title="Register" />
+                  </div>
+                </div> */}
+                
+
+                {/* <div className='theme-description'>
+                  <h3>This year's theme is <span className='underline'>Science</span>.</h3> 
+                  <p>Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today.</p>
+                  <br />
+                  <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
+                </div> */}
+
+                {/* <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/> */}
+                
+                
+                {/* <img src={ChemSet} alt="chemistry set"/> */}
+                
+                <div className='keynote'>
+                  <div className='keynote-header'>
+                    <div className='keynote-title'>
+                      Keynote Speaker:
                     </div>
-                    <div className='keynote-speaker-info'>
-                      <img src={wendy} className='keynote-image' alt="Wendy Nather"/>
+                    <div className='keynote-speaker'>
+                      <div className='keynote-speaker-name'>
+                        Paul Vixie
+                      </div>
+                      <div className='keynote-speaker-info'>
+                        <img src={Paul} className='keynote-image' alt="Paul Vixie"/>
 
-                      <p className='keynote-para'>Wendy Nather leads the Advisory CISO team at Cisco.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research, covering the security industry in areas such as application security, threat intelligence, security services, and other emerging technologies.</p>
-                      <p className='keynote-para'>Wendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy is co-author of <i>The Cloud Security Rules</i>, and was listed as one of SC Magazine's Women in IT Security "Power Players" in 2014, as well as an “Influencer” in the Reboot Leadership Awards in 2018; she was inducted into the Infosecurity Europe Hall of Fame in 2021. She is an advisory board member for the RSA Conference, and serves on the advisory board for Sightline Security, an organization that helps provide free security assessment services to nonprofit groups. Wendy is a Senior Fellow at the Atlantic Council's Cyber Statecraft Initiative, as well as a Senior Cybersecurity Fellow at the Robert Strauss Center for International Security and Law at the University of Texas at Austin. She is based in Fort Collins, Colorado.</p>
-
+                        <p className='keynote-para'>Paul Vixie is a VP and Distinguished Engineer who joined AWS Security after a 29 year career as the founder and CEO of five startup companies covering the fields of DNS, anti-spam, Internet exchange, Internet carriage and hosting, and Internet security. Vixie earned his Ph.D. in Computer Science from Keio University in 2011 and was inducted into the Internet Hall of Fame in 2014. He is also known as an author of open source software including Cron.</p>
+                        
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div> */}
 
 
 
-    {/* 
-              <center>
-              <div className='order-button'>
-                <a
-                  className="cybr-btn btn-bottom"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://reg.kernelcon.org/">
-                  Register Now
-                  <span aria-hidden className="cybr-btn__glitch">
+                {/* 
+                <center>
+                <div className='order-button'>
+                  <a
+                    className="cybr-btn btn-bottom"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://reg.kernelcon.org/">
                     Register Now
-                  </span>
-                </a>
-              </div>
-                <img
-                  className="img-responsive"
-                  alt="future-is-now"
-                  src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
-                />
-                <p className="photo-credit">
-                  The Future Is Now by Josan Gonzalez
-                </p>
-              </center> */}
+                    <span aria-hidden className="cybr-btn__glitch">
+                      Register Now
+                    </span>
+                  </a>
+                </div>
+                  <img
+                    className="img-responsive"
+                    alt="future-is-now"
+                    src="https://cdn0.vox-cdn.com/thumbor/O8IF6wSLdIz4JoG6abHHSn2qWhg=/cdn0.vox-cdn.com/uploads/chorus_asset/file/6274065/Apr_01__2016_09_25.0.gif"
+                  />
+                  <p className="photo-credit">
+                    The Future Is Now by Josan Gonzalez
+                  </p>
+                </center> */}
               </div>
             </div>
 

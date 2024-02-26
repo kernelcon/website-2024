@@ -9,7 +9,7 @@ import Speakers from './Speakers/Speakers';
 // import Workshops from './Workshops';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
-import wendy from "../../static/images/trainers/wendy.jpg";
+import Paul from "../../static/images/trainers/paul.jpg";
 
 
 import villageConfig from 'villageConfig';
@@ -73,7 +73,7 @@ export default class Agenda extends Component {
         vertical={vert}>
         <TabList>
           {/* <Tab tabFor="schedule">Schedule</Tab> */}
-          {/* <Tab tabFor="keynotes">Keynotes</Tab> */}
+          <Tab tabFor="keynotes">Keynotes</Tab>
           {/* <Tab tabFor="speakers">Speakers</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
@@ -85,12 +85,12 @@ export default class Agenda extends Component {
           	<TalksSchedule />
           </div>
         </TabPanel>
-        {/* <TabPanel tabId="keynotes">
+        <TabPanel tabId="keynotes">
           <div className='text-area'>
             <h3 className='title'>Keynotes</h3>
             {/* <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Friday: Joe Grand</h4>
+                <h4 className='keynote-name'>Paul Vixie</h4>
                 <div className='keynote-subtitle'>
                   <div className='keynote-company'>
                     <a href='http://www.grandideastudio.com/' target="_blank" rel="noopener noreferrer">
@@ -99,8 +99,8 @@ export default class Agenda extends Component {
                   </div>
                   <div className='keynote-div'>|</div>
                   <div className='keynote-handle'>
-                    <a href='https://twitter.com/joegrand' target="_blank" rel="noopener noreferrer">
-                      @joegrand
+                    <a href='https://twitter.com/paulvixie' target="_blank" rel="noopener noreferrer">
+                      @paulvixie
                     </a>
                   </div>
                 </div>
@@ -125,31 +125,30 @@ export default class Agenda extends Component {
                 </div>
                </div>
                <div className='keynote-right'>
-                <img src={wendy}
+                <img src={Paul}
                   alt='Joe Grand'
                   className='keynote-image'/>
                </div>
-            </div> 
+            </div>  */}
             <div className='keynote-section'>
               <div className='keynote-left'>
-                <h4 className='keynote-name'>Wendy Nather</h4>
+                <h4 className='keynote-name'>Paul Vixie</h4>
                 <div className='keynote-subtitle'>
                   {/* <div className='keynote-company'>
-                    <a href='https://www.cisco.com/c/en/us/products/security/ciso-conversations.html' target="_blank" rel="noopener noreferrer">
-                      Head of Advisory CISOs
+                    <a href='https://aws.amazon.com/' target="_blank" rel="noopener noreferrer">
+                      AWS Security
                     </a>
                   </div>
-                  <div className='keynote-div'>|</div>
+                  <div className='keynote-div'>|</div> */}
                   <div className='keynote-handle'>
-                    <a href='https://infosec.exchange/@wendynather' target="_blank" rel="noopener noreferrer">
-                      @wendynather
+                    <a href='https://twitter.com/paulvixie' target="_blank" rel="noopener noreferrer">
+                      @paulvixie
                     </a>
                   </div>
                 </div>
 
                 <div className='keynote-bio'>
-                  <p className='tab-paragraph'>Wendy Nather leads the Advisory CISO team at Cisco.  She was previously Research Director at the Retail ISAC, where she was responsible for advancing the state of resources and knowledge to help organizations defend their infrastructure from attackers. Wendy was also Research Director of the Information Security Practice at independent analyst firm 451 Research, covering the security industry in areas such as application security, threat intelligence, security services, and other emerging technologies.</p>
-                  <p className='tab-paragraph'>Wendy has served as a CISO in both the private and public sectors. She led IT security for the EMEA region of the investment banking division of Swiss Bank Corporation (now UBS), as well as for the Texas Education Agency. Wendy is co-author of <i>The Cloud Security Rules</i>, and was listed as one of SC Magazine's Women in IT Security "Power Players" in 2014, as well as an “Influencer” in the Reboot Leadership Awards in 2018; she was inducted into the Infosecurity Europe Hall of Fame in 2021. She is an advisory board member for the RSA Conference, and serves on the advisory board for Sightline Security, an organization that helps provide free security assessment services to nonprofit groups. Wendy is a Senior Fellow at the Atlantic Council's Cyber Statecraft Initiative, as well as a Senior Cybersecurity Fellow at the Robert Strauss Center for International Security and Law at the University of Texas at Austin. She is based in Fort Collins, Colorado.</p>
+                  <p className='tab-paragraph'>Paul Vixie is a VP and Distinguished Engineer who joined AWS Security after a 29 year career as the founder and CEO of five startup companies covering the fields of DNS, anti-spam, Internet exchange, Internet carriage and hosting, and Internet security. Vixie earned his Ph.D. in Computer Science from Keio University in 2011 and was inducted into the Internet Hall of Fame in 2014. He is also known as an author of open source software including Cron.</p>
                 </div>
 
                 {/* <div className='keynote-talk'>
@@ -160,16 +159,16 @@ export default class Agenda extends Component {
                     <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
                     <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className='keynote-right'>
-                <img src={wendy}
-                  alt="Wendy Nather"
+                <img src={Paul}
+                  alt="Paul Vixie"
                   className='keynote-image'/>
               </div>
             </div>
           </div>
-        </TabPanel> */}
+        </TabPanel>
         <TabPanel tabId="speakers" className="speakers">
           <div className='text-area'>
             <h3 className='title'>Speakers</h3>
