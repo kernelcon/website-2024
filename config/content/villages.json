@@ -59,24 +59,6 @@
     "description": "Visit the Kernelcon Radio Hacking Village to learn more about software defined radio applications.  There will be various radio & wifi hardware if anyone wants to get hands on experience and/or see real-time examples of wireless hacking. Wifi adapters, expoitable routers, RTL-SDRs, signal decoding and cloning."
   },
   {
-    "title": "Resume & Career Review Village",
-    "author": "TEKSystems",
-    "id": "careervillage",
-    "hidden": false,
-    "logo": {
-      "image_name": "teksystems.png",
-      "image_class": "logo-brighten"
-    },
-    "dates": [{
-      "day": "Thursday, April 4th"
-    },
-    {
-      "day": "Friday, April 5th"
-    }
-  ],
-    "description": "Stop by the TEKsystems Resume & Career Review village to discuss your technical skills and career goals with IT job market experts. Weather you’re looking for advice on the next step in your career or would benefit getting an extra pair of eyes on your resume the TEKsystems team will be happy to discuss the national market landscape with you."
-  },
-  {
     "title": "Wild West Hackin' Fest Labs",
     "author": "Black Hills Information Security",
     "id": "wildwesthackingfest",
