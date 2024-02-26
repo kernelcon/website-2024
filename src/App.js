@@ -59,7 +59,7 @@ function App() {
 					<Route exact path="/" component={Home} />
 					<Route exact path="/about" component={About} />
 					<Route exact path="/admin" component={Admin} />
-          <Route exact path="/bio" component={Bio} />
+          			<Route exact path="/bio" component={Bio} />
 					<Route exact path="/conference" component={Conference} />
 					<Route exact path="/dates" component={Dates} />
 					<Route exact path="/open-calls" component={OpenCalls} />

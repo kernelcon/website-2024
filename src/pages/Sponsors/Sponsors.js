@@ -31,6 +31,7 @@ import TrailOfBitsDark from "../../static/images/sponsors/trailofbits-dark-mode.
 import TrailOfBitsLight from "../../static/images/sponsors/trailofbits-light-mode.png"
 import EvolvingSolDark from "../../static/images/sponsors/evolving-sol-dark-mode.png"
 import EvolvingSolLight from "../../static/images/sponsors/evolving-sol-light-mode.png"
+import Falkor from "../../static/images/sponsors/FS_Purple.png";
 
 import "./Sponsors.scss";
 
@@ -457,7 +458,7 @@ export default class Sponsors extends Component {
                     </a>
                   </div> */}
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h4 className='gold spons-title'>Other Sponsors</h4>
                     <a href="https://toool.us/"
                       target="_blank"
@@ -482,7 +483,15 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="NoStarchPress"/>
                     </a>
-                    <a href="https://www.mentalhealthhackers.org/"
+                    <a href="https://kernelcon.org"
+                      target="_blank"
+                      className=''
+                      rel='noopener noreferrer'>
+                      <img src={Falkor}
+                        className='spons-img other-spons'
+                        alt="Falkor Security"/>
+                    </a>
+                    {/* <a href="https://www.mentalhealthhackers.org/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -497,9 +506,9 @@ export default class Sponsors extends Component {
                       <img src={MentalHealthHackersLight}
                         className='spons-img other-spons'
                         alt="Mental Health Hackers"/>
-                    </a>
+                    </a> */}
                     <br />
-                  </div> */}
+                  </div>
 
 
                 <div className='spons-block'>

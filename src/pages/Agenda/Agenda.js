@@ -73,7 +73,7 @@ export default class Agenda extends Component {
         vertical={vert}>
         <TabList>
           {/* <Tab tabFor="schedule">Schedule</Tab> */}
-          <Tab tabFor="keynotes">Keynotes</Tab>
+          {/* <Tab tabFor="keynotes">Keynotes</Tab> */}
           {/* <Tab tabFor="speakers">Speakers</Tab> */}
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
@@ -85,7 +85,7 @@ export default class Agenda extends Component {
           	<TalksSchedule />
           </div>
         </TabPanel>
-        <TabPanel tabId="keynotes">
+        {/* <TabPanel tabId="keynotes">
           <div className='text-area'>
             <h3 className='title'>Keynotes</h3>
             {/* <div className='keynote-section'>
@@ -129,7 +129,7 @@ export default class Agenda extends Component {
                   alt='Joe Grand'
                   className='keynote-image'/>
                </div>
-            </div> */}
+            </div> 
             <div className='keynote-section'>
               <div className='keynote-left'>
                 <h4 className='keynote-name'>Wendy Nather</h4>
@@ -139,7 +139,7 @@ export default class Agenda extends Component {
                       Head of Advisory CISOs
                     </a>
                   </div>
-                  <div className='keynote-div'>|</div> */}
+                  <div className='keynote-div'>|</div>
                   <div className='keynote-handle'>
                     <a href='https://infosec.exchange/@wendynather' target="_blank" rel="noopener noreferrer">
                       @wendynather
@@ -160,9 +160,7 @@ export default class Agenda extends Component {
                     <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
                     <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
                   </div>
-                </div> */}
-
-
+                </div>
               </div>
               <div className='keynote-right'>
                 <img src={wendy}
@@ -171,7 +169,7 @@ export default class Agenda extends Component {
               </div>
             </div>
           </div>
-        </TabPanel>
+        </TabPanel> */}
         <TabPanel tabId="speakers" className="speakers">
           <div className='text-area'>
             <h3 className='title'>Speakers</h3>
@@ -246,6 +244,7 @@ export default class Agenda extends Component {
   render() {
     return (
       <div className='container'>
+      <div className="venue-section">
 			<div className="con-page">
 				<div className="text-area">
           <h3 className='title'>Agenda</h3>
@@ -255,6 +254,7 @@ export default class Agenda extends Component {
             <MediaQuery maxDeviceWidth={999}>
               {this.getTabs(false)}
             </MediaQuery>
+        </div>
         </div>
         </div>
       </div>
