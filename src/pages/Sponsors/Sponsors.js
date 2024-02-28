@@ -249,7 +249,7 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Farm Credit"/>
                     </a>
-                    {/* <a href="https://www.conagrabrands.com/"
+                    <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -264,7 +264,7 @@ export default class Sponsors extends Component {
                       <img src={ConAgraLight}
                         className='spons-img gold-spons'
                         alt="Conagra"/>
-                    </a> */}
+                    </a>
                   </div>
 
                   <div className='spons-block'>
