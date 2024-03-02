@@ -10,6 +10,7 @@ import Speakers from './Speakers/Speakers';
 
 import CallOuts from '../../components/CallOuts/CallOuts';
 import Paul from "../../static/images/trainers/paul.jpg";
+import John from "../../static/images/trainers/john2-square.jpg";
 
 
 import villageConfig from 'villageConfig';
@@ -164,6 +165,43 @@ export default class Agenda extends Component {
               <div className='keynote-right'>
                 <img src={Paul}
                   alt="Paul Vixie"
+                  className='keynote-image'/>
+              </div>
+            </div>
+            <div className='keynote-section'>
+              <div className='keynote-left'>
+                <h4 className='keynote-name'>John Hultquist</h4>
+                <div className='keynote-subtitle'>
+                  {/* <div className='keynote-company'>
+                    <a href='' target="_blank" rel="noopener noreferrer">
+                      Mandiant Intelligence
+                    </a>
+                  </div>
+                  <div className='keynote-div'>|</div> */}
+                  <div className='keynote-handle'>
+                    <a href='https://twitter.com/johnhultquist' target="_blank" rel="noopener noreferrer">
+                    @JohnHultquist
+                    </a>
+                  </div>
+                </div>
+
+                <div className='keynote-bio'>
+                  <p className='tab-paragraph'>John Hultquist is Chief Analyst of Mandiant Intelligence at Google Cloud. Prior to the acquisition of iSIGHT Partners by FireEye/Mandiant, John led iSIGHT's cyber espionage practice, where his team uncovered the Russian threat actor best known as Sandworm. John previously worked at State Department and Defense Intelligence Agency. He is an Adjunct Professor at Johns Hopkins University and the founder of CYBERWARCON and SLEUTHCON. John is also a veteran of the US Army.</p>
+                </div>
+
+                {/* <div className='keynote-talk'>
+                  <div className='keynote-topic'>In Search of Lost Bytes: Hardware Implants and the Trouble with Supply Chains</div>
+                  <div className='keynote-abstract'>
+                    <p className='tab-paragraph'>Digital markets have quickly grown to international proportions, complexities in materials, development, and distribution have developed accordingly, resulting in market efficiency and, often overlooked, incalculable risks.</p>
+                    <p className='tab-paragraph'>There is a fine line between acceptable and irreconcilable risk, while some risks are mitigatable, others are not, and ignoring the facts has disproportionate consequences. This presentation will explore modern supply chain security risks through a technical deep dive of 5G infrastructure and the political battles surrounding it.</p>
+                    <p className='tab-paragraph'>However, a wider acknowledgment of the supply chain problem doesn’t make it go away. We need to understand the inherent hardware vulnerabilities exposed. Currently, confidence in hardware security relies too much implicit trust — overlooking serious threats. Assurance in this area is hard won, manual, and costly.</p>
+                    <p className='tab-paragraph'>To highlight this, several hardware implant techniques will be discussed, showcasing various attack methods as well as the point at which they are most likely to be exploited in a standard supply chain.</p>
+                  </div>
+                </div> */}
+              </div>
+              <div className='keynote-right'>
+                <img src={John}
+                  alt="John Hultquist"
                   className='keynote-image'/>
               </div>
             </div>

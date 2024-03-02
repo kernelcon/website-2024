@@ -8,6 +8,7 @@ import Arm from "../../static/images/icons/arm.png";
 import Brain from "../../static/images/icons/brain.png";
 import Fun from "../../static/images/icons/fun.png";
 import Paul from "../../static/images/trainers/paul.jpg";
+import John from "../../static/images/trainers/john2-square.jpg";
 
 import FullKernelconLogo from "../../static/images/logos/kernelcon_black.png"
 import FullKernelconLogoDark from "../../static/images/logos/kernelcon_white.png"
@@ -247,6 +248,25 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
+                <div className='keynote'>
+                  <div className='keynote-header'>
+                    <div className='keynote-title'>
+                      Keynote Speaker:
+                    </div>
+                    <div className='keynote-speaker'>
+                      <div className='keynote-speaker-name'>
+                      John Hultquist
+                      </div>
+                      <div className='keynote-speaker-info'>
+                        <img src={John} className='keynote-image' alt="John Hultquist"/>
+
+                        <p className='keynote-para'>John Hultquist is Chief Analyst of Mandiant Intelligence at Google Cloud. Prior to the acquisition of iSIGHT Partners by FireEye/Mandiant, John led iSIGHT's cyber espionage practice, where his team uncovered the Russian threat actor best known as Sandworm. John previously worked at State Department and Defense Intelligence Agency. He is an Adjunct Professor at Johns Hopkins University and the founder of CYBERWARCON and SLEUTHCON. John is also a veteran of the US Army.</p>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
 
 
 
