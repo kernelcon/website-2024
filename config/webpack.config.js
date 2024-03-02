@@ -623,6 +623,7 @@ module.exports = function(webpackEnv) {
     },
     externals: {
       agendaConfig: JSON.stringify(require('./content/agenda.json')), //eslint-disable-line
+      speakerConfig: JSON.stringify(require('./content/speakers.json')), //eslint-disable-line
       dateConfig: JSON.stringify(require('./content/dates.json')), //eslint-disable-line
       entertainmentConfig: JSON.stringify(require('./content/entertainment.json')), //eslint-disable-line
       faqConfig: JSON.stringify(require('./content/faq.json')), //eslint-disable-line

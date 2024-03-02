@@ -86,6 +86,7 @@
         }
         .speaker-titles {
           color: $dm-highlight;
+          display: inline-block;
           /*margin-bottom: 10px;*/
           span {
             &:not(:first-child) {

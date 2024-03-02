@@ -15,6 +15,9 @@ class Individuals extends Component {
     speaker: PropTypes.string,
     company: PropTypes.string,
     twitter: PropTypes.string,
+    mastodon: PropTypes.string,
+    linkedin: PropTypes.string,
+    github: PropTypes.string,
     image: PropTypes.string,
     bio: PropTypes.string
   };
@@ -25,6 +28,9 @@ class Individuals extends Component {
     speaker: '',
     company: '',
     twitter: '',
+    mastodon: '',
+    linkedin: '',
+    github: '',
     image: '',
     bio: ''
   };
@@ -55,6 +61,15 @@ class Individuals extends Component {
           {(this.props.company || this.props.twitter) && <span className='speaker-titles'>
             {this.props.company && <span>{this.props.company}</span>}
             {this.props.twitter && <span>{this.props.twitter}</span>}
+          </span>}
+          {(this.props.mastodon ) && <span className='speaker-titles'>
+            {this.props.mastodon && <span>{this.props.mastodon}</span>}
+          </span>}
+          {(this.props.github ) && <span className='speaker-titles'>
+            {this.props.github && <span><a href={this.props.github} target="_blank" rel="noopener noreferrer nofollow">GitHub</a></span>}
+          </span>}
+          {(this.props.linkedin ) && <span className='speaker-titles'>
+            {this.props.linkedin && <span><a href={this.props.linkedin} target="_blank" rel="noopener noreferrer nofollow">LinkedIn</a></span>}
           </span>}
           <img src={imgSrc}
             alt={this.props.speaker}
