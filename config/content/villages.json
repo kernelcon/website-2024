@@ -75,5 +75,26 @@
     }
   ],
     "description": "Howdy partners! Kernelcon is just plumb excited to have the good ol’ folks from Wild West Hackin’ Fest visit our little husking bee to share some labs from their ho down. Gallop on over and find out what makes Wild West Hackin’ Fest one of the best in the west!"
+  },
+  {
+    "title": "Mental Health and Wellness Village",
+    "author": "Mental Health Hackers",
+    "id": "mhhvillage",
+    "hidden": false,
+    "logo": {
+      "dark_mode_support": true,
+      "image_name": "MHH.png",
+      "image_class": "light-mode-logo",
+      "dark_mode_image_name": "MHH-white.png",
+      "dark_mode_image_class": "dark-mode-logo"
+    },
+    "dates": [{
+        "day": "Friday, April 14th"
+      },
+      {
+        "day": "Saturday, April 15th"
+      }
+    ],
+    "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
   }
 ]

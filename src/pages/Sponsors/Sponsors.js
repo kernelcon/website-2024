@@ -491,7 +491,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Falkor Security"/>
                     </a>
-                    {/* <a href="https://www.mentalhealthhackers.org/"
+                    <a href="https://www.mentalhealthhackers.org/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -506,7 +506,7 @@ export default class Sponsors extends Component {
                       <img src={MentalHealthHackersLight}
                         className='spons-img other-spons'
                         alt="Mental Health Hackers"/>
-                    </a> */}
+                    </a>
                     <br />
                   </div>
 
