@@ -29,8 +29,8 @@
                 {
                     "name": "Gerard Johansen",
                     "speaker_id": "GerardJohansen",
-                    "company": "",
-                    "twitter": "@irproactive",
+                    "company": "Red Canary",
+                    "twitter": "https://twitter.com/IrProactive",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -51,7 +51,7 @@
                 {
                     "name": "Allyn Stott",
                     "speaker_id": "AllynStott",
-                    "company": "",
+                    "company": "Airbnb",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",
@@ -73,8 +73,8 @@
                 {
                     "name": "Kevin Johnson",
                     "speaker_id": "KevinJohnson",
-                    "company": "",
-                    "twitter": "@secureideas",
+                    "company": "Secure Ideas",
+                    "twitter": "https://twitter.com/secureideas",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -96,7 +96,7 @@
                     "name": "Joseph",
                     "speaker_id": "Joseph",
                     "company": "",
-                    "twitter": "@cedoxX",
+                    "twitter": "https://twitter.com/cedoxX",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -117,8 +117,8 @@
                 {
                     "name": "Brennan Lodge",
                     "speaker_id": "BrennanLodge",
-                    "company": "",
-                    "twitter": "@blodge08",
+                    "company": "New York University",
+                    "twitter": "https://twitter.com/blodge08",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -139,7 +139,7 @@
                 {
                     "name": "Robert LaMagna-Reiter",
                     "speaker_id": "RobertLaMagnaReiter",
-                    "company": "",
+                    "company": "Hudl",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",
@@ -158,17 +158,28 @@
             {
                 "title": "AI Enhanced Hacks: Model in the Middle",
                 "authors": [
-                {
-                    "name": "Ryan Ashley and Ari Chadda",
-                    "speaker_id": "RyanAshleyandAriChadda",
-                    "company": "",
-                    "twitter": "",
-                    "mastodon": "@birdwainer@infosec.exchange",
-                    "github": "",
-                    "linkedin": "https://www.linkedin.com/in/arichadda",
-                    "image": "",
-                    "bio": "Ryan Ashley and Ari Chadda are engineers with IQT Labs. For the past 3 years their work has centered on exploring ways to ensure the fairness, ethics, and security of machine learning models and systems.\n"
-                }
+                    {
+                        "name": "Ryan Ashley",
+                        "speaker_id": "RyanAshley",
+                        "company": "IQT Labs",
+                        "twitter": "",
+                        "mastodon": "https://infosec.exchange/@birdwainer",
+                        "github": "",
+                        "linkedin": "",
+                        "image": "",
+                        "bio": "Ryan Ashleyis an engineer with IQT Labs. For the past 3 years their work has centered on exploring ways to ensure the fairness, ethics, and security of machine learning models and systems.\n"
+                    },
+                    {
+                        "name": "Ari Chadda",
+                        "speaker_id": "AriChadda",
+                        "company": "IQT Labs",
+                        "twitter": "",
+                        "mastodon": "",
+                        "github": "",
+                        "linkedin": "https://www.linkedin.com/in/arichadda",
+                        "image": "",
+                        "bio": "Ari Chadda is an engineer with IQT Labs. For the past 3 years their work has centered on exploring ways to ensure the fairness, ethics, and security of machine learning models and systems.\n"
+                    }
                 ],
                 "talk_id": "AIEnhancedHacksModelintheMiddle",
                 "pdf": "",
@@ -183,7 +194,7 @@
                 {
                     "name": "Chris Patten",
                     "speaker_id": "ChrisPatten",
-                    "company": "",
+                    "company": "STACKTITAN",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",
@@ -205,8 +216,8 @@
                 {
                     "name": "Will Urbanski",
                     "speaker_id": "WillUrbanski",
-                    "company": "",
-                    "twitter": "@WillUrbanski",
+                    "company": "Stripe",
+                    "twitter": "https://twitter.com/WillUrbanski",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -228,7 +239,7 @@
                     "name": "Sam Curry",
                     "speaker_id": "SamCurry",
                     "company": "",
-                    "twitter": "@samwcyo",
+                    "twitter": "https://twitter.com/samwcyo",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -249,8 +260,8 @@
                 {
                     "name": "Berenice Flores",
                     "speaker_id": "BereniceFlores",
-                    "company": "",
-                    "twitter": "@dark1t",
+                    "company": "Bishop Fox",
+                    "twitter": "https://twitter.com/dark1t",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -277,7 +288,7 @@
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Will McCardell is an offensive application security engineer at a professional services firm that specializes in application and hardware security. Heâ€™s worked in the technology industry for over a decade, spending time, as a software engineer, database administrator, cloud engineer, and now as an application security engineer who dabbles in hardware pentesting. His interests include software engineer, offensive security, hardware, and wireless attacks, as well as making hot sauces.\n"
+                    "bio": "Will McCardell is an offensive application security engineer at a professional services firm that specializes in application and hardware security. He's worked in the technology industry for over a decade, spending time, as a software engineer, database administrator, cloud engineer, and now as an application security engineer who dabbles in hardware pentesting. His interests include software engineer, offensive security, hardware, and wireless attacks, as well as making hot sauces.\n"
                 }
                 ],
                 "talk_id": "ShockaBLETheJourneytoHackingaBluetoothTENSUnit",
@@ -293,13 +304,13 @@
                 {
                     "name": "Gabe Schuyler",
                     "speaker_id": "GabeSchuyler",
-                    "company": "",
+                    "company": "Wiz",
                     "twitter": "",
-                    "mastodon": "@gabe_sky@infosec.exchange",
+                    "mastodon": "https://infosec.exchange/@gabe_sky",
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Gabe is a cloud security practitioner with experience building, running, and protecting a variety of services both on premises and in the cloud.  By day, he is a solutions engineer at Wiz, Inc.  In his time off he fidgets with locks, experiments with ambient displays, and convinces AI to do things that it shouldnâ€™t.\n"
+                    "bio": "Gabe is a cloud security practitioner with experience building, running, and protecting a variety of services both on premises and in the cloud.  By day, he is a solutions engineer at Wiz, Inc.  In his time off he fidgets with locks, experiments with ambient displays, and convinces AI to do things that it shouldn't.\n"
                 }
                 ],
                 "talk_id": "AttackandDefenseofAIInfrastructure",
@@ -307,7 +318,7 @@
                 "video": "",
                 "length": "60",
                 "technical": "3",
-                "abstract": "In this beginner-friendly talk, weâ€™ll discuss how AI infrastructure presents novel security challenges, while also requiring many of the time-honored basics.  Defense runs the gamut from protecting brand-new AI services to the simple exercise of basic hygiene.  Attack employs AI-specific techniques on the one hand, and tried-and-true social engineering (of a sort) on the other.  Weâ€™ll cover both aspects, ultimately arming you with knowledge and tools to adopt AI infrastructure safely and predictably."
+                "abstract": "In this beginner-friendly talk, we'll discuss how AI infrastructure presents novel security challenges, while also requiring many of the time-honored basics.  Defense runs the gamut from protecting brand-new AI services to the simple exercise of basic hygiene.  Attack employs AI-specific techniques on the one hand, and tried-and-true social engineering (of a sort) on the other.  We'll cover both aspects, ultimately arming you with knowledge and tools to adopt AI infrastructure safely and predictably."
             },
             {
                 "title": "Assembly, so easy an AI can't do it",
@@ -321,7 +332,7 @@
                     "github": "https://github.com/drmilhous",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Dr. Miller is a security consultant whom specializes in reverse engineering, assembly and computer theory.  He taught Computer Science, assembly and reverse engineering for 8 years at the collegiate level. He co-taught a course â€œReverse Engineering for Pentesters and Malware Analystsâ€œ at BlackHat 2020. He has been called as an expert witness on more than a dozen Federal Cases, where he reverse engineered the NIT code provided by the government.\n"
+                    "bio": "Dr. Miller is a security consultant whom specializes in reverse engineering, assembly and computer theory.  He taught Computer Science, assembly and reverse engineering for 8 years at the collegiate level. He co-taught a course 'Reverse Engineering for Pentesters and Malware Analysts' at BlackHat 2020. He has been called as an expert witness on more than a dozen Federal Cases, where he reverse engineered the NIT code provided by the government.\n"
                 }
                 ],
                 "talk_id": "AssemblysoeasyanAIcantdoit",
@@ -359,13 +370,13 @@
                 {
                     "name": "Aaron Walton",
                     "speaker_id": "AaronWalton",
-                    "company": "",
+                    "company": "Expel",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Aaron is a Threat Intel Analyst at Expel. His interactions with the cyber world are shaped by a lifetime of exposure to other disciplines such as aviation regulation, compliance, cultural and linguistic anthropology, ethnomusicology, social justice, and world religion. When heâ€™s not at a computer, he is often in a pub playing Irish flute.\n"
+                    "bio": "Aaron is a Threat Intel Analyst at Expel. His interactions with the cyber world are shaped by a lifetime of exposure to other disciplines such as aviation regulation, compliance, cultural and linguistic anthropology, ethnomusicology, social justice, and world religion. When he's not at a computer, he is often in a pub playing Irish flute.\n"
                 }
                 ],
                 "talk_id": "AnthropologicalIntelligence101IntroductiontotheMalwareIndustry",
@@ -373,7 +384,7 @@
                 "video": "",
                 "length": "60",
                 "technical": "1",
-                "abstract": "This presentation is an overview of the malware industry from the perspective of an anthropologist. We wonâ€™t get deep into anthropology, but we will use anthropology to orient ourselves.\r\nInstead of looking at malware as something that exists of itself, this session looks at malware as software that exists in an ecosystem of users and developers.\r\nWeâ€™ll walk through a mental model to categorize and think about malware families, and threat actors and the service offerings available to them. This modelâ€™s wholistic view provides an introduction to Cyber Threat Intelligence, enables detection engineers to focus on the most important threats, and helps analysts orient when investigating malware. Attendees will leave with a deeper understanding of relationships between malware families, tools and threat actors, and will be better enabled to defend against these threats."
+                "abstract": "This presentation is an overview of the malware industry from the perspective of an anthropologist. We won't get deep into anthropology, but we will use anthropology to orient ourselves.\r\nInstead of looking at malware as something that exists of itself, this session looks at malware as software that exists in an ecosystem of users and developers.\r\nWe'll walk through a mental model to categorize and think about malware families, and threat actors and the service offerings available to them. This model's wholistic view provides an introduction to Cyber Threat Intelligence, enables detection engineers to focus on the most important threats, and helps analysts orient when investigating malware. Attendees will leave with a deeper understanding of relationships between malware families, tools and threat actors, and will be better enabled to defend against these threats."
             },
             {
                 "title": "Artifice and Integrity: How Law Enforcement Gets and Uses Your Data",
@@ -387,7 +398,7 @@
                     "github": "",
                     "linkedin": "https://linkedin.com/in/anthonykava",
                     "image": "Anthony_Kava.jpg",
-                    "bio": "Anthony Kava is a hacker and carries a badge. Got his start breaking Apple ][s then moved, somehow, to breaking baddies. Works as a cyber crime investigator and digital forensics examiner with a penchant for infosec. Kava is a recognized federal pornography expert, scourge to software vendors, and has been portrayed by a Canadian in a Lifetime movie. Dreams in Perl. Enjoys long walks on the dark web.\n"
+                    "bio": "Anthony Kava is a hacker and carries a badge. Got his start breaking Apple IIs then moved, somehow, to breaking baddies. Works as a cyber crime investigator and digital forensics examiner with a penchant for infosec. Kava is a recognized federal pornography expert, scourge to software vendors, and has been portrayed by a Canadian in a Lifetime movie. Dreams in Perl. Enjoys long walks on the dark web.\n"
                 }
                 ],
                 "talk_id": "ArtificeandIntegrityHowLawEnforcementGetsandUsesYourData",
@@ -403,13 +414,13 @@
                 {
                     "name": "Megan Benoit",
                     "speaker_id": "MeganBenoit",
-                    "company": "",
+                    "company": "NFM",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Megan Benoit has spent most of the last 20 years building vulnerability management and incident response programs, architecting and deploying security solutions, and telling management sheâ€™s a security engineer, not a miracle worker, and currently works as a Senior Network Security Engineer for NFM. In her spare time she teaches yoga and group exercise classes because when she tells people what to do, they donâ€™t argue back.\n"
+                    "bio": "Megan Benoit has spent most of the last 20 years building vulnerability management and incident response programs, architecting and deploying security solutions, and telling management she's a security engineer, not a miracle worker, and currently works as a Senior Network Security Engineer for NFM. In her spare time she teaches yoga and group exercise classes because when she tells people what to do, they don't argue back.\n"
                 }
                 ],
                 "talk_id": "BetheBestLoserYouCanBe",
@@ -417,7 +428,7 @@
                 "video": "",
                 "length": "60",
                 "technical": "1",
-                "abstract": "Security is about balance - operational risk and security risk are often in opposition with each other, and more often than not, security is going to suffer first.  How do you succeed at getting securityâ€™s needs met, while still letting the business function?  Weâ€™re going to talk about winning, losing, and losing strategically, all of which can help you and your organization succeed at security."
+                "abstract": "Security is about balance - operational risk and security risk are often in opposition with each other, and more often than not, security is going to suffer first.  How do you succeed at getting security's needs met, while still letting the business function?  We're going to talk about winning, losing, and losing strategically, all of which can help you and your organization succeed at security."
             },
             {
                 "title": "Offense for Defense",
@@ -425,8 +436,8 @@
                 {
                     "name": "Tim Medin",
                     "speaker_id": "TimMedin",
-                    "company": "",
-                    "twitter": "@TimMedin",
+                    "company": "Red Siege",
+                    "twitter": "https://twitter.com/timmedin",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -447,8 +458,8 @@
                 {
                     "name": "Dan Amodio",
                     "speaker_id": "DanAmodio",
-                    "company": "",
-                    "twitter": "@DanAmodio",
+                    "company": "Tinder & Match Group",
+                    "twitter": "https://twitter.com/danamodio",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -458,8 +469,8 @@
                 {
                     "name": "Rojan Rijal",
                     "speaker_id": "RojanRijal",
-                    "company": "",
-                    "twitter": "@uraniumhacker",
+                    "company": "Tinder Security Labs",
+                    "twitter": "https://twitter.com/uraniumhacker",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -475,12 +486,12 @@
                 "abstract": "As the red team responsible for comprehensive vendor testing at a major company, we encounter a multitude of AI/ML solutions, each complete with its unique set of hurdles and loopholes. Join us as we demonstrate an 'intentionally vulnerable' application, carefully built using ChatGPT and 'inspiration' drawn from actual 0-day vulnerabilities."
             },
             {
-                "title": "Whoâ€™s going to secure the code our army of robots are going to be writing?",
+                "title": "Who's going to secure the code our army of robots are going to be writing?",
                 "authors": [
                 {
                     "name": "Arshan Dabirsiaghi",
                     "speaker_id": "ArshanDabirsiaghi",
-                    "company": "",
+                    "company": "Pixee",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",
@@ -494,7 +505,7 @@
                 "video": "",
                 "length": "60",
                 "technical": "3",
-                "abstract": "Large Language Models (LLM) are writing a significant portion of our code through tools like Copilot, and now promising new companies like Sweep are starting to write wholesale features for us. The LLMs are trained on the vulnerable code weâ€™ve already written, so of course multiple studies have now confirmed that they offer the same vulnerability density.\r\nSecurity today is often already outnumbered by developers at rates like 1000:1. When we started to add LLMs to the developer toolchain, we began barreling towards a comically hopeless situation where the ratio of code developed vs. code secured is no longer tenable.\r\n\r\nThere are too many humans involved in critical chokepoints that have no hope of meaningfully securing the deluge of code that is coming.\r\nIâ€™d like the opportunity to make the case that the only way to keep up is to change our engineering practices and introduce virtual security engineers, powered by a mix of LLMs and traditional technologies."
+                "abstract": "Large Language Models (LLM) are writing a significant portion of our code through tools like Copilot, and now promising new companies like Sweep are starting to write wholesale features for us. The LLMs are trained on the vulnerable code we've already written, so of course multiple studies have now confirmed that they offer the same vulnerability density.\r\nSecurity today is often already outnumbered by developers at rates like 1000:1. When we started to add LLMs to the developer toolchain, we began barreling towards a comically hopeless situation where the ratio of code developed vs. code secured is no longer tenable.\r\n\r\nThere are too many humans involved in critical chokepoints that have no hope of meaningfully securing the deluge of code that is coming.\r\nI'd like the opportunity to make the case that the only way to keep up is to change our engineering practices and introduce virtual security engineers, powered by a mix of LLMs and traditional technologies."
             },
             {
                 "title": "Put the Con in Conversation",
@@ -503,7 +514,7 @@
                     "name": "Jason Downey",
                     "speaker_id": "JasonDowney",
                     "company": "",
-                    "twitter": "@HackAndBackpack",
+                    "twitter": "https://twitter.com/hackandbackpack",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
@@ -524,7 +535,7 @@
                 {
                     "name": "Matt Austin",
                     "speaker_id": "MattAustin",
-                    "company": "",
+                    "company": "Pixee.ai",
                     "twitter": "",
                     "mastodon": "",
                     "github": "",

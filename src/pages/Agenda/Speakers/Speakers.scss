@@ -96,8 +96,16 @@
                 margin: 0px 8px;
               }
             }
+            a {
+              vertical-align: middle;
+            }
+          }
+          .speaker-socials-logo {
+            width: 16px;
+            // margin: 0px 3px 0px 3px;
           }
         }
+
         .bio-image {
           float: right;
           margin-top: -30px;
