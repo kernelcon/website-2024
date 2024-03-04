@@ -89,12 +89,30 @@
       "dark_mode_image_class": "dark-mode-logo"
     },
     "dates": [{
-        "day": "Friday, April 14th"
+        "day": "Friday, April 4th"
       },
       {
-        "day": "Saturday, April 15th"
+        "day": "Saturday, April 5th"
       }
     ],
     "description": "The Mental Health and Wellness Village offers a common place to allow like-minded individuals to share and grow as a community, to better our mental health and the health of those around us. Check out the village for fidget tables, crafts, adult coloring books, and more! Visit https://www.mentalhealthhackers.org/ for more information."
+  },
+  {
+    "title": "Resume & Career Review Village",
+    "author": "TEKSystems",
+    "id": "careervillage",
+    "hidden": false,
+    "logo": {
+      "image_name": "teksystems.png",
+      "image_class": "logo-brighten"
+    },
+    "dates": [{
+        "day": "Friday, April 4th"
+      },
+      {
+        "day": "Saturday, April 5th"
+      }
+    ],
+    "description": "Stop by the TEKsystems Resume & Career Review village to discuss your technical skills and career goals with IT job market experts. Weather you’re looking for advice on the next step in your career or would benefit getting an extra pair of eyes on your resume the TEKsystems team will be happy to discuss the national market landscape with you."
   }
 ]
