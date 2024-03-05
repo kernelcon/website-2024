@@ -3,100 +3,86 @@
   "people": [{
       "id": 1,
       "name": "Wacey Lanier",
-      "title": "Social Marketing & Speaker Coordinator",
+      "title": "Social Media Chair",
       "image": "wacey.gif",
       "twitter": "_wacey"
     },
     {
       "id": 2,
       "name": "Tyler Rosonke",
-      "title": "Audio/Video & Badge Chair",
+      "title": "Badge Chair",
       "image": "tyler.png",
       "twitter": "zonksec"
     },
     {
       "id": 3,
       "name": "Dan Browder",
-      "title": "General Chair, Art/Graphics, & God of Popcorn",
+      "title": "Art/Graphics & God of Popcorn",
       "image": "popcorn.png",
       "twitter": "popcornhax"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Henry Karpf",
       "title": "Registration Chair",
       "image": "henry.png",
       "twitter": "hk6045"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Adam Schaal",
-      "title": "Training Chair",
+      "title": "Village Chair",
       "image": "adam.png",
       "twitter": "clevernyyyy"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Jason Lehr",
-      "title": "Security Chair",
+      "title": "Training & Security Chair",
       "image": "jason.png",
       "twitter": "__JCL__"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Tim Vidas",
-      "title": "Program Chair & Venue Liason",
+      "title": "General Chair, Program Chair & Venue Liason",
       "image": "tim.png",
       "twitter": "tvidas"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Aaron Gunning",
-      "title": "Villages Chair & Sponsorship Coordinator",
+      "title": "Sponsorship Chair",
       "image": "aaron.png",
       "twitter": "scotchsec"
     },
     {
-      "id": 10,
-      "name": "Trent Williams",
-      "title": "Board Member at Large",
-      "image": "trent.png",
-      "twitter": "trentgw"
-    },
-    {
-      "id": 11,
+      "id": 9,
       "name": "Kate Knowlton",
       "title": "Kernelcon Store & Swag Chair",
       "image": "kate.png",
       "twitter": "vulnKat"
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "Nate Wood",
       "title": "CTF Chair",
       "image": "nate.png",
       "twitter": "woodnsec"
     },
     {
-      "id": 13,
+      "id": 11,
       "name": "Jeris Rue",
       "title": "Not Spiderman",
       "image": "jeris.png",
       "twitter": "elaboraterues"
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "Ryen Macababbad",
       "title": "Diversity & Inclusion Chair",
       "image": "ryen.png",
       "twitter": "Ryen_Mac"
-    },
-    {
-      "id": 15,
-      "name": "Dylan Hildenbrand",
-      "title": "Party Rocking Chair",
-      "image": "dylan.png",
-      "twitter": "closingtags@mastodon.social"
     }
   ]
 }]
