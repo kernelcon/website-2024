@@ -28,6 +28,7 @@
 
 @media only screen and (max-width: 779px) {
   .text, .text-second, .a-heading, .i-heading {
-    font-size: 32px;
+    //font-size: 21px;
+    font-size: calc(1.6*(1vh + 1vw));
   }
 }
