@@ -25,3 +25,9 @@
   filter: drop-shadow(3px 3px 3px black);
   -webkit-filter: drop-shadow(3px 3px 3px black);
 }
+
+@media only screen and (max-width: 779px) {
+  .text, .text-second, .a-heading, .i-heading {
+    font-size: 32px;
+  }
+}
