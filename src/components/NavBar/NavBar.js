@@ -14,10 +14,12 @@ export default class NavBar extends Component {
 						<img
 							src={BlackLogo}
 							className="navbar-logo"
-							height="25"
+							height="30"
 							alt="kernelcon logo"
 						/>
-						<p className="nav-dates">Apr 2 - Apr 5, 2024</p>
+						
+						<p className="nav-dates">Training: Apr 2-3</p>
+						<p className="second-nav-dates">Conference: Apr 4-5</p>
 					</a>
 				</div>
 				<div className="toggle-group">
