@@ -266,6 +266,22 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Conagra"/>
                     </a>
+                    <a href="https://www.wiz.io/"
+                      target="_blank"
+                      className='all-bright dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={Wiz}
+                        className='spons-img gold-spons'
+                        alt="Wiz"/>
+                    </a>
+                    <a href="https://www.wiz.io/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={Wiz}
+                        className='spons-img gold-spons'
+                        alt="Wiz"/>
+                    </a>
                   </div>
 
                   <div className='spons-block'>
@@ -539,6 +555,22 @@ export default class Sponsors extends Component {
                           <img src={SecureSkyDark}
                             className='spons-img fdbev-spons'
                             alt="SecureSky"/>
+                        </a>
+                        <a href="https://www.wiz.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='all-bright dark-mode-logo'>
+                          <img src={Wiz}
+                            className='spons-img fdbev-spons'
+                            alt="Wiz"/>
+                        </a>
+                        <a href="https://www.wiz.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={Wiz}
+                            className='spons-img fdbev-spons'
+                            alt="Wiz"/>
                         </a>
                       </div>
                     </div>
