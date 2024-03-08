@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ContrastDarkMode from "../../static/images/sponsors/contrast-light-logo.png";
-import ContrastLightMode from "../../static/images/sponsors/contrast-dark-logo.png";
+import ContrastDarkMode from "../../static/images/sponsors/contrast-dark-logo.png";
+import ContrastLightMode from "../../static/images/sponsors/contrast-light-logo.png";
 import NoStarchPress from "../../static/images/sponsors/no-starch-logo.png";
 import ToooLDarkMode from "../../static/images/sponsors/toool-light-logo.png";
 import TooolLightMode from "../../static/images/sponsors/toool-dark-logo.png";
@@ -301,6 +301,22 @@ export default class Sponsors extends Component {
                       <img src={TrailOfBitsLight}
                         className='spons-img other-spons'
                         alt="Trail of Bits"/>
+                    </a>
+                    <a href="https://www.contrastsecurity.com/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ContrastDarkMode}
+                        className='spons-img other-spons'
+                        alt="Contrast"/>
+                    </a>
+                    <a href="https://www.contrastsecurity.com/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ContrastLightMode}
+                        className='spons-img other-spons'
+                        alt="Contrast"/>
                     </a>
                     {/* <a href="https://fnbo.com/"
                       target="_blank"
