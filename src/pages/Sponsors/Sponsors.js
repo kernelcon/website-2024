@@ -33,6 +33,8 @@ import EvolvingSolDark from "../../static/images/sponsors/evolving-sol-dark-mode
 import EvolvingSolLight from "../../static/images/sponsors/evolving-sol-light-mode.png"
 import Falkor from "../../static/images/sponsors/FS_Purple.png";
 import TekSystems from "../../static/images/logos/teksystems.png"
+import ExpelDark from "../../static/images/sponsors/expel-dark-mode.png"
+import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
 
 import "./Sponsors.scss";
 
@@ -281,6 +283,22 @@ export default class Sponsors extends Component {
                       <img src={Wiz}
                         className='spons-img gold-spons'
                         alt="Wiz"/>
+                    </a>
+                    <a href="https://expel.com/"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ExpelLight}
+                        className='spons-img gold-spons'
+                        alt="Expel"/>
+                    </a>
+                    <a href="https://expel.com/"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={ExpelDark}
+                        className='spons-img gold-spons'
+                        alt="Expel"/>
                     </a>
                   </div>
 
