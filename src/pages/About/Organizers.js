@@ -41,7 +41,8 @@ class Organizers extends Component {
               <div className='oc-text-section'>
                 <div className='oc-name'>{el.name}</div>
                 <div className='oc-title'>{el.title}</div>
-                {el.twitter && <a className='oc-twitter' href={`https://twitter.com/${el.twitter}`}>{`@${el.twitter}`}</a>}
+                {el.twitter && <a className='oc-twitter' target='_blank' rel='noopener noreferrer' href={`https://twitter.com/${el.twitter}`}>{`@${el.twitter}`}</a>}
+                {el.mastodon && <a className='oc-twitter' target='_blank' rel='noopener noreferrer' href={`${el.mastodon_url}`}>{`@${el.mastodon}`}</a>}
               </div>
             </div>
           </div>
@@ -53,6 +54,11 @@ class Organizers extends Component {
           <div className='tab-title'>
             {ele.heading}
           </div>
+          {ele.subHeading && <div className='tab-subtitle'>
+            {ele.subHeading}
+            <br />
+            <br />
+          </div>}         
           <div className='oc-list'>
             {display}
           </div>
