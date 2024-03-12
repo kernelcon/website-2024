@@ -142,7 +142,7 @@
         "twitter": "",
         "github": "",
         "linkedIn": "https://www.linkedin.com/in/christopherpatten/",
-        "image": "",
+        "image": "Chris_Patten.jpg",
         "bio": "Chris Patten is the Co-Founder at STACKTITAN performing adversarial assessments and security research for a set of diverse industries. Aside from writing code, Chris also wields a Dremel and soldering iron in the pursuit of building interesting hardware tradecraft that the team uses during offensive assessments.\n",
         "hidden": false
       }
@@ -202,7 +202,7 @@
       "twitter": "",
       "github": "",
       "linkedIn": "",
-      "image": "",
+      "image": "Aaron_Walton.jpg",
       "bio": "Aaron is a Threat Intel Analyst at Expel. His interactions with the cyber world are shaped by a lifetime of exposure to other disciplines such as aviation regulation, compliance, cultural and linguistic anthropology, ethnomusicology, social justice, and world religion. When he's not at a computer, he is often in a pub playing Irish flute.\n"
     }]
   },{
@@ -297,7 +297,7 @@
       "twitter": "",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/matt-/",
-      "image": "",
+      "image": "Matt_Austin.jpg",
       "bio": "Matt is a husband, a dad, and a hacker and Principal Security Researcher at Pixee.ai with 14+ years in security research and moonlighting BugBounty. \n"
     }]
   }, {
@@ -391,7 +391,7 @@
       "twitter": "",
       "github": "",
       "linkedIn": "https://www.linkedin.com/in/arshan-dabirsiaghi/",
-      "image": "",
+      "image": "Arshan_Dabirsiaghi.png",
       "bio": "Arshan is a security researcher pretending to be a software executive, with many years of experience advising organizations on code security. He has spoken at conferences like Bluehat, Blackhat and OWASP, and definitely wrote his own bio. He is also a co-founder of Contrast Security, a cybersecurity unicorn focused on vulnerability discovery through runtime instrumentation. He now serves as CTO of Pixee where he's done finding and asking about security issues -- he's just fixing it for you.\n"
     }]
   }, {
@@ -808,7 +808,7 @@
       "twitter": "https://twitter.com/secureideas",
       "github": "",
       "linkedIn": "",
-      "image": "",
+      "image": "kevin_johnson.png",
       "bio": "Kevin Johnson is the Chief Executive Officer of Secure Ideas. Kevin has a long history in the IT field including system administration, network architecture and application development. He has been involved in building incident response and forensic teams, architecting security solutions for large enterprises and penetration testing everything from government agencies to Fortune 100 companies. In addition, Kevin is a faculty member at IANS and was an instructor and author for the SANS Institute.\n"
     }]
   }, {
