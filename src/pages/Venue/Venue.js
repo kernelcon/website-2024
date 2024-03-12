@@ -59,7 +59,7 @@ export default class Venue extends Component {
 								{" "}or call +1-800-362-2779 and request Embassy Suites Omaha Downtown. The code to receive your rate is CES91C.
 							</div>
 							<div className="venue-text">
-								Please book by March 11th for our group rate.
+								Please book by March <s>11</s> 18th (extended!) for our group rate.
 							</div>
 							{/* <div className="venue-text">
 								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
