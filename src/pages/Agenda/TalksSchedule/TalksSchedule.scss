@@ -6,16 +6,36 @@
 }
 
 .schedule-heading {
-  font-size: 24px;
-  font-family: $font-punk;
+  font-size: 32px;
+  font-family: $font-science;
   text-align: center;
   margin: 10px 20px;
+  color: $dm-theme-highlight;
+  text-shadow: 2px 2px $dm-theme-highlight-alt !important;
 }
 
 body.dark-mode {
   .schedule-heading {
-    color: #eaf63c !important;
-    text-shadow: 2px 2px $dm-punk-highlight !important;
+    color: $dm-theme-highlight-alt !important;
+    // text-shadow: 2px 2px #ccc !important;
+    text-shadow: 2px 2px $dm-theme-highlight !important;
+  }
+  .schedule-talks{
+    .tabs label:hover {
+      // background: #eee;
+      // color: $dm-punk-highlight;
+      color: $dm-theme-highlight;
+    }
+    .tabs [id^="tab"]:checked+label {
+      background: $dm-theme-highlight;
+      color: #fff;
+    }
+    .box {
+      border-left: solid 8px $dm-theme-highlight;
+      .talk-time {
+        color: $dm-theme-highlight;
+      }
+    }
   }
 }
 
@@ -57,7 +77,7 @@ body.dark-mode {
   }
   .tabs label:hover {
     background: #eee;
-    color: $dm-punk-highlight;
+    color: $light-highlight;
   }
   .tabs label span {
     display: block;
@@ -79,7 +99,7 @@ body.dark-mode {
     background: #ffffff;
   }
   .tabs [id^="tab"]:checked+label {
-    background: $dm-punk-highlight;
+    background: $light-highlight;
     color: #ffffff;
   }
   .tabs [id^="tab"]:checked+label:after {
@@ -136,7 +156,7 @@ body.dark-mode {
     align-items: center;
     display: flex;
     text-transform: uppercase;
-    font-family: $font-punk;
+    font-family: $font-science;
     font-size: calc(.8vw + .8vh);
     color: #fff;
     background: $dm-highlight;
@@ -146,7 +166,7 @@ body.dark-mode {
     color: #333;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-left: solid 8px $dm-punk-highlight;
+    border-left: solid 8px $light-highlight;
     padding: 5px 10px;
     display: flex;
     height: 100%;
@@ -155,7 +175,7 @@ body.dark-mode {
     -moz-box-shadow: 0px 1px 2px 0px rgba(199, 199, 199, 1);
     box-shadow: 0px 1px 2px 0px rgba(199, 199, 199, 1);
     .talk-time {
-      color: $dm-punk-highlight;
+      color: $light-highlight;
       display: flex;
       width: 35px !important;
       min-width: 35px;
