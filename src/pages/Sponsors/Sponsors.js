@@ -534,7 +534,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="NoStarchPress"/>
                     </a>
-                    <a href="https://kernelcon.org"
+                    <a href="https://www.falkorsecurity.com/"
                       target="_blank"
                       className=''
                       rel='noopener noreferrer'>
