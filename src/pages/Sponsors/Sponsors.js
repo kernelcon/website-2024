@@ -35,6 +35,9 @@ import Falkor from "../../static/images/sponsors/FS_Purple.png";
 import TekSystems from "../../static/images/logos/teksystems.png"
 import ExpelDark from "../../static/images/sponsors/expel-dark-mode.png"
 import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
+import AmazonDark from "../../static/images/sponsors/amazon-dark-mode.png"
+import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
+import Turngate from "../../static/images/sponsors/turn-gate.png"
 
 import "./Sponsors.scss";
 
@@ -299,6 +302,22 @@ export default class Sponsors extends Component {
                       <img src={ExpelDark}
                         className='spons-img gold-spons'
                         alt="Expel"/>
+                    </a>
+                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AmazonLight}
+                        className='spons-img silver-spons'
+                        alt="Amazon Security"/>
+                    </a>
+                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AmazonDark}
+                        className='spons-img silver-spons'
+                        alt="Amazon Security"/>
                     </a>
                   </div>
 
@@ -605,6 +624,22 @@ export default class Sponsors extends Component {
                           <img src={Wiz}
                             className='spons-img fdbev-spons'
                             alt="Wiz"/>
+                        </a>
+                        <a href="https://www.turngate.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='all-bright dark-mode-logo'>
+                          <img src={Turngate}
+                            className='spons-img fdbev-spons'
+                            alt="Wiz"/>
+                        </a>
+                        <a href="https://www.turngate.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={Turngate}
+                            className='spons-img fdbev-spons'
+                            alt="Turngate"/>
                         </a>
                       </div>
                     </div>
