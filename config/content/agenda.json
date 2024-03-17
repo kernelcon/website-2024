@@ -839,10 +839,10 @@
     "time": "1500",
     "minutes": "60",
     "roomIndex": [0],
-    "talkTitle": "Immediate Action Forensics",
-    "talkDescription": "Threat actors are moving faster and faster. From initial access to impact can take only hours now. Blue Teams need to be able to quickly pivot to a suspect system, extract key artifacts, analyze them and pass them along to team members to begin the isolation and containment necessary to stop a threat actor cold. In this session, we will examine how threat actors compromise systems and what traces they leave behind. From here, we will look at pivoting off an alert or other indicator, extract high value artifacts and how to quickly analyze them to provide high fidelity indicators. This allows for the rapid containment of an incident.\r\n\r\nAttendees will be shown a demonstration in real time where a responder will pivot from an alert, remotely access an infected system, extract a triage package and then analyze it. You will walk away from this with process and practical workflows that incorporate remote access and analysis tools (all Open or Community sourced) that you can bring back to your own environment.",
-    "talkTechLevel": "3",
-    "talkId": "ImmediateActionForensics",
+    "talkTitle": "sudo reboot YOURSELF: A Self-Care Guide for Tech Warriors",
+    "talkDescription": "Let's face it, in the tech world, the line between our work and personal life is blurrier than ever. We're constantly connected, and it's taking a toll on our mental health. In this talk, I'm going to share my own struggles with feeling like a fraud (hello, imposter syndrome), being perpetually overworked, ignoring my most important relationships with my family and friends, and just being numb to everything around me. But more importantly, I'll share how I turned things around. I've got some real, no-nonsense hacks that are not only backed by science but are also super practical – you can start using them today. We'll explore straightforward ways to reduce stress, improve your mood, and find a bit of calm in the chaos of our digital lives. These methods aren't just theoretical; they're the actual tools I used to reclaim my sanity and rediscover joy. So, come join me, and let's embark on a journey to unleash your inner tech-powered Zen – a journey to balance and well-being in our fast-paced tech world.",
+    "talkTechLevel": "4",
+    "talkId": "sudorebootYOURSELF",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
