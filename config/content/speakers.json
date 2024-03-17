@@ -24,26 +24,26 @@
                 "abstract": "AI and Machine learning are being used to analyze large amounts of data. While AI and machine learning has many benefits, they are also prone to being attacked. In this session, attendees will be introduced to the idea of adversarial AI or adversarial machine learning and attacks to machine learning models. Attendees will learn about some real-world case studies regarding attacks that have impacted top global companies in the industry as well as current open-source industry solutions that aim to increase the security of machine learning algorithms. After the session, attendees will have a better understanding of machine learning's role in the cyber threat landscape as well as measures they can take to secure their organization's machine learning technologies."
             },
             {
-                "title": "Immediate Action Forensics",
+                "title": "sudo reboot YOURSELF: A Self-Care Guide for Tech Warriors",
                 "authors": [
                 {
-                    "name": "Gerard Johansen",
-                    "speaker_id": "GerardJohansen",
-                    "company": "Red Canary",
-                    "twitter": "https://twitter.com/IrProactive",
+                    "name": "Shakib Hikmat",
+                    "speaker_id": "ShakibHikmat",
+                    "company": "FNBO",
+                    "twitter": "",
                     "mastodon": "",
                     "github": "",
-                    "linkedin": "",
+                    "linkedin": "https://www.linkedin.com/in/shakib-hikmat-02595a66/",
                     "image": "",
-                    "bio": "Gerard is a Principal Readiness Engineer for Red Canary, focusing on detection and response. Prior to his tenure at Red Canary, Gerard has had over a decade of experience in digital forensics, incident response and cyber security. Gerard has developed training solutions to aid security teams with responding to cyber attacks. Additionally, Gerard is also a frequent contributor to various conferences and webcasts. He is also author of the book Digital Forensics and Incident Response, 3rd edition.\n"
+                    "bio": "I am a Cloud Engineer at FNBO and I am very passionate about mental/physical health and helping people. I am also very passionate about food, movies, video games, hiking (or anything outdoors), being silly, and just enjoying life. Hit me up if you want to talk about the best places to eat and we'll probably be instant friends (or close friends if you are an adventurous eater). I have an unquenchable thirst for knowledge and growth. Sarcasm is a beautiful way of life. \n"
                 }
                 ],
-                "talk_id": "ImmediateActionForensics",
+                "talk_id": "sudorebootYOURSELF",
                 "pdf": "",
                 "video": "",
                 "length": "60",
-                "technical": "3",
-                "abstract": "Threat actors are moving faster and faster. From initial access to impact can take only hours now. Blue Teams need to be able to quickly pivot to a suspect system, extract key artifacts, analyze them and pass them along to team members to begin the isolation and containment necessary to stop a threat actor cold. In this session, we will examine how threat actors compromise systems and what traces they leave behind. From here, we will look at pivoting off an alert or other indicator, extract high value artifacts and how to quickly analyze them to provide high fidelity indicators. This allows for the rapid containment of an incident.\r\n\r\nAttendees will be shown a demonstration in real time where a responder will pivot from an alert, remotely access an infected system, extract a triage package and then analyze it. You will walk away from this with process and practical workflows that incorporate remote access and analysis tools (all Open or Community sourced) that you can bring back to your own environment."
+                "technical": "4",
+                "abstract": "Let's face it, in the tech world, the line between our work and personal life is blurrier than ever. We're constantly connected, and it's taking a toll on our mental health. In this talk, I'm going to share my own struggles with feeling like a fraud (hello, imposter syndrome), being perpetually overworked, ignoring my most important relationships with my family and friends, and just being numb to everything around me. But more importantly, I'll share how I turned things around. I've got some real, no-nonsense hacks that are not only backed by science but are also super practical – you can start using them today. We'll explore straightforward ways to reduce stress, improve your mood, and find a bit of calm in the chaos of our digital lives. These methods aren't just theoretical; they're the actual tools I used to reclaim my sanity and rediscover joy. So, come join me, and let's embark on a journey to unleash your inner tech-powered Zen – a journey to balance and well-being in our fast-paced tech world."
             },
             {
                 "title": "The Fault in Our Metrics: Rethinking How We Measure Detection & Response",
