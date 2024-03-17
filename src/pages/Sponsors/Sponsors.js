@@ -40,6 +40,7 @@ import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
 import Turngate from "../../static/images/sponsors/turn-gate.png"
 import Phosphorus from "../../static/images/sponsors/phosphorus.png"
 import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
+import Runza from "../../static/images/sponsors/runza-logo-tagline.webp"
 
 import "./Sponsors.scss";
 
@@ -553,6 +554,13 @@ export default class Sponsors extends Component {
                       <img src={TekSystems}
                         className='spons-img other-spons'
                         alt="TEKsystems"/>
+                    </a>
+                    <a href="https://www.runza.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={Runza}
+                        className='spons-img other-spons'
+                        alt="Runza"/>
                     </a>
                     <br />
                   </div>
