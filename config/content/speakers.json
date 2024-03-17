@@ -90,26 +90,26 @@
                 "abstract": "Story time with a hacker.  This talk focuses on explaining real stories from the trenches.  It focuses on the risks and how we find them."
             },
             {
-                "title": "Emerging AI/ML Dark Markets, the Dark Web and Darknets",
+                "title": "AI in Vulnerability Management: Friend, Foe, or Frenemy?",
                 "authors": [
                 {
-                    "name": "Joseph",
-                    "speaker_id": "Joseph",
+                    "name": "JGamblin",
+                    "speaker_id": "JerryGamblin",
                     "company": "",
-                    "twitter": "https://twitter.com/cedoxX",
+                    "twitter": "https://twitter.com/jgamblin",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Joseph is a 25 year veteran of the Cybersecurity field, a published author, Course Developer and Trainer. Joseph worked at DoD for more then ten years as an operator, SME, where he deployed advanced technology, performed CNE functions and later led large teams to design, build and deploy Critical infrastructure and big data systems. Joseph was the founder of the original Red Team Village and Texas Cyber Summit. Joseph continues to assist law enforcement with the Dark Web and Dark Markets.\n"
+                    "bio": "Jerry Gamblin is a security researcher and analyst focusing on network and application security with over 20 years of experience. His research has been presented on numerous blogs, podcasts, and security conferences. When not at work, his personal research focuses on IoT & embedded automotive systems.\n"
                 }
                 ],
-                "talk_id": "EmergingAIMLDarkMarketstheDarkWebandDarknets",
+                "talk_id": "AIinVulnerabilityManagement",
                 "pdf": "",
                 "video": "",
-                "length": "60",
+                "length": "20",
                 "technical": "3",
-                "abstract": "The Dark Web can be one of the most challenging environments for OSINT, law enforcement, and reputation practitioners to work in. This talk will give attendees techniques and strategies required to securely and safely navigate and investigate Tor-based and Darknet entities and platforms. You will learn the techniques, processes, and methods to perform recon in search of hacked, breached and leaked data, as well as understand the threats that AI and ML pose to the threat landscape. We will also cover AI/ML, open-source and surface web resources and tools to assist in your investigation.\r\n\r\nIt's only a matter of time before a number of organizations experience data leaks or have data stolen. We need to think in terms of when, and not if, this will happen. Successfully protecting your organization means having the tools and information to determine early in the process if a breach has been planned, made or is in progress so you can take appropriate steps to reduce exposure and loss."
+                "abstract": "Is Artificial Intelligence (AI) a boon or bane in vulnerability management? This talk unpacks the complexities, analyzing AI's advantages like predictive threat response and challenges such as false positives. We'll explore the ethical dilemmas and chart a way forward in this rapidly evolving landscape of cybersecurity."
             },
             {
                 "title": "The Road Ahead: Merging Human Cyber Security Expertise with Generative AI",
@@ -211,26 +211,26 @@
                 "abstract": "Picture this if you will. A client has tasked you with breaching their organization... no limits and everything is in play. Further, the client will not assist with gaining internal access and if the internal command and control technique is burned then so is the operation. This isn't all that uncommon. Our solution was to build a Covert Access Implant from a commodity consumer APC Surge Protector device that could communicate within the enterprise network, but backhaul command and control over the wireless LTE network. We will share the construction of our Covert Access Implant, discuss the functionality, and demonstrate how we use the device for red team operations."
             },
             {
-                "title": "Canaries in the Cloud: Quantifying the Risks of API Key Exposure through Intentional Key Leaks",
+                "title": "Image Scaling Attack Simulation: A Measure of Stealth and Detectability",
                 "authors": [
                 {
-                    "name": "Will Urbanski",
-                    "speaker_id": "WillUrbanski",
-                    "company": "Stripe",
-                    "twitter": "https://twitter.com/WillUrbanski",
+                    "name": "Devon Kelly IV",
+                    "speaker_id": "DevonKellyIV",
+                    "company": "Texas A&M",
+                    "twitter": "",
                     "mastodon": "",
                     "github": "",
                     "linkedin": "",
                     "image": "",
-                    "bio": "Will is the tech lead for threat intelligence at Stripe. His skills lie at the intersection of threat intelligence and software engineering, focusing on attack simulation and the practical applications of threat intelligence. In his past roles, Will led detection and intelligence teams at Datadog and SecureWorks. He has authored four patents in the cybersecurity space, and his research has been published in well-known academic journals, including IEEE Security & Privacy.\n"
+                    "bio": "Devon is a first semester Computer Science MS-Thesis student at Texas A&M University and just received his Bachelors this past December from A&M. Devon is doing research in cybersecurity with a dual emphasis in artificial intelligence applications in cybersecurity and low-level cybersecurity.\n"
                 }
                 ],
-                "talk_id": "CanariesintheCloudQuantifyingtheRisksofAPIKeyExposurethroughIntentionalKeyLeaks",
+                "talk_id": "ImageScalingAttackSimulation",
                 "pdf": "",
                 "video": "",
-                "length": "60",
-                "technical": "3",
-                "abstract": "API keys are everywhere, and are increasingly being abused by threat actors for financial gain.  The improper disclosure of keys is not a theoretical concern; it's a reality that can have catastrophic consequences for account security. As a security engineer, it can be a challenge to detect and respond to leaked API keys. In response to this threat, our research focuses on techniques that leverage intentional API key leaks to test system security properties, assess gaps in telemetry, and produce clean datasets that can be used to detect suspicious activity. Using this approach we are able to fingerprint actor activities and learn about novel behaviors and motivations. The insights gained from this study have enhanced our fraud detection capabilities and identified attackers targeting our platform. This presentation aims to share our findings and methodologies, offering a comprehensive overview of how understanding attacker behaviors can significantly contribute to reinforcing the security framework of any platform."
+                "length": "20",
+                "technical": "2",
+                "abstract": "Cybersecurity practices require effort to be maintained, and one weakness is a lack of awareness regarding potential attacks not only in the usage of machine learning models, but also in their development process. Previous studies have determined that preprocessing attacks, such as image scaling attacks, have been difficult to detect by humans (through visual response) and computers (through entropic algorithms). However, these studies fail to address the real-world performance and detectability of these attacks. The purpose of this work is to analyze the relationship between awareness of image scaling attacks with respect to demographic background and experience. We conduct a survey where we gather the subjects’ demographics, analyze the subjects’ experience in cybersecurity, record their responses to a convolutional neural network model that has been hindered by an image scaling attack of a used dataset. We find in this study that the overall detection rate of the attack is low enough to be viable in a workplace or academic setting, and even after discovery, subjects cannot conclusively determine benign images from attacked images."
             },
             {
                 "title": "Leaked Secrets and Unlimited Miles: Hacking Airlines, Rewards Programs, and More",
