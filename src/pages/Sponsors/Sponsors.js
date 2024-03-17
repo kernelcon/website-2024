@@ -38,6 +38,8 @@ import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
 import AmazonDark from "../../static/images/sponsors/amazon-dark-mode.png"
 import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
 import Turngate from "../../static/images/sponsors/turn-gate.png"
+import Phosphorus from "../../static/images/sponsors/phosphorus.png"
+import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
 
 import "./Sponsors.scss";
 
@@ -145,78 +147,46 @@ export default class Sponsors extends Component {
                         alt="Guidepoint Security"/>
                     </a>
                   </div>
-                  {/* <div className='sub-party-logos'>
+                  <div className='sub-party-logos'>
                     <span className='sub-party-logos'>
-                      <a href="https://www.axonius.com/"
+                      <a href="https://phosphorus.io/"
                         target="_blank"
                         rel='noopener noreferrer'
-                        className='all-bright dark-mode-logo'>
-                        <img src={Axonius}
+                        className='dark-mode-logo'>
+                        <img src={Phosphorus}
                           className='spons-img sub-party-spons'
-                          alt="Axonius"/>
+                          alt="Phosphorus"/>
                       </a>
-                      <a href="https://www.axonius.com/"
+                      <a href="https://phosphorus.io/"
                         target="_blank"
                         rel='noopener noreferrer'
                         className='light-mode-logo'>
-                        <img src={Axonius}
+                        <img src={Phosphorus}
                           className='spons-img sub-party-spons'
-                          alt="Axonius"/>
+                          alt="Phosphorus"/>
                       </a>
 
-                      <a href="https://www.code42.com/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='all-bright dark-mode-logo'>
-                        <img src={Code42}
-                          className='spons-img sub-party-spons'
-                          alt="Code42"/>
-                      </a>
-                      <a href="https://www.code42.com/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='light-mode-logo'>
-                        <img src={Code42}
-                          className='spons-img sub-party-spons'
-                          alt="Code42"/>
-                      </a>
                     </span>
                     <span className='sub-party-logos'>
-                      <a href="https://www.tanium.com/"
+                      <a href="https://www.recordedfuture.com/"
                         target="_blank"
                         rel='noopener noreferrer'
                         className='all-bright dark-mode-logo'>
-                        <img src={Tanium}
+                        <img src={RecordedFuture}
                           className='spons-img sub-party-spons'
-                          alt="Tanium"/>
+                          alt="Recorded Future"/>
                       </a>
-                      <a href="https://www.tanium.com/"
+                      <a href="https://www.recordedfuture.com/"
                         target="_blank"
                         rel='noopener noreferrer'
                         className='light-mode-logo'>
-                        <img src={Tanium}
+                        <img src={RecordedFuture}
                           className='spons-img sub-party-spons'
-                          alt="Tanium"/>
+                          alt="Recorded Future"/>
                       </a>
 
-                      <a href="https://www.wiz.io/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='all-bright dark-mode-logo'>
-                        <img src={Wiz}
-                          className='spons-img sub-party-spons'
-                          alt="Wiz"/>
-                      </a>
-                      <a href="https://www.wiz.io/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='light-mode-logo'>
-                        <img src={Wiz}
-                          className='spons-img sub-party-spons'
-                          alt="Wiz"/>
-                      </a>
                     </span>
-                  </div> */}
+                  </div>
 
 
 
