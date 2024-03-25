@@ -1,35 +1,19 @@
 [{
-    "title": "Whose Slide Is It Anyway?",
+    "title": "Opening Act: Lauren Vana",
     "author": "",
-    "id": "whos-slide",
+    "id": "lauren",
     "hidden": false,
     "logo": {
       "dark_mode_support": false,
-      "image_name": "whose.png",
-      "image_class": "",
+      "image_name": "lauren.png",
+      "image_class": "callout-comic",
       "dark_mode_image_name": "",
       "dark_mode_image_class": ""
     },
     "dates": [{
-      "day": "Friday, April 1st"
+      "day": "Thursday, April 4th"
     }],
-    "description": "<p>Enjoy improvisation? Then this is the event for you! Tempt the fates and hop on stage to present some... interesting slide decks, slight unseen. Our slide decks are not exclusive to technology, they can and will be about anything. This hilarious event separates the corn germ from the slurry as Kernelcon staff and the audience judge the presentation. Sign ups will occur right before the event.</p>"
-  }, {
-    "title": "Opening Act: Antoinette Stevens",
-    "author": "",
-    "id": "antoinette",
-    "hidden": false,
-    "logo": {
-      "dark_mode_support": false,
-      "image_name": "antoinette.jpeg",
-      "image_class": "",
-      "dark_mode_image_name": "",
-      "dark_mode_image_class": ""
-    },
-    "dates": [{
-      "day": "Friday, April 1st"
-    }],
-    "description": "Antoinette Stevens started comedy just under two years ago in Des Moines. She's performed in cities all across the midwest and is a member of Black Iowa Streams, a collective of Black comedians in Iowa. As a writer, Antoinette is an external contributor for Raygun, has won awards with the 48 Hour Film Festival in Minneapolis and Madison, and was also accepted to the DAF, in partnership with The Onion, Writer's Workshop. She also runs an instagram account called Bite Sized Fictions and posts micro-fiction stories with 100 words or less."
+    "description": "Lauren Vana is a stand-up comedian born, raised, and based in Omaha, Nebraska. A graduate of the Backline Comedy Theatre, she won the 2023 Funny Bone Clash Comedian of the Year and has opened for the likes of Emma Willmann. Known for her wit and sharp writing, she frequently performs at venues around the Midwest. In addition to stand-up, she does improv and sketch comedy. When she’s not on stage, you can find her writing earnest Letterboxd reviews or completing the New York Times crossword puzzle. You can find her on Instagram, @laurenvana."
   },
   {
     "title": "Headliner: Dante Powell",
@@ -38,13 +22,13 @@
     "hidden": false,
     "logo": {
       "dark_mode_support": false,
-      "image_name": "dante.webp",
-      "image_class": "",
+      "image_name": "dante.jpg",
+      "image_class": "callout-comic",
       "dark_mode_image_name": "",
       "dark_mode_image_class": ""
     },
     "dates": [{
-      "day": "Friday, April 1st"
+      "day": "Thursday, April 4th"
     }],
     "description": "<p>Dante Powell is a comedian from Bernice, Louisiana. Dante currently lives and performs out of Des Moines, IA and travels the country working comedy clubs, theaters, and festivals. His debut comedy album 'The Squirrels Get Fat' was produced by Grammy Award winning Stand Up! Records and is available on any platform you use to purchase albums.</p><p>Dante runs the gamut from opening for major acts like Godfrey, Gary Gulman, Rory Scovel, Mike Epps, Chris Porter, and Pauly Shore to headlining club weekends (Comedy Corner Underground, Blue Room Comedy Club, Penguins Comedy Club) and one off shows.</p><p>Dante brings a unique perspective founded on his life experience to story-telling and joke writing. His comedy is incredibly clever and takes on everything from the common to the mundane in a way that draws in audiences from all walks of life and allows them to connect with him.</p>"
   }

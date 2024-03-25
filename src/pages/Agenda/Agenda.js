@@ -78,7 +78,7 @@ export default class Agenda extends Component {
           <Tab tabFor="speakers">Speakers</Tab>
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
-          {/* <Tab tabFor="entertainment">Entertainment</Tab> */}
+          <Tab tabFor="entertainment">Entertainment</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
         <TabPanel tabId="schedule">
