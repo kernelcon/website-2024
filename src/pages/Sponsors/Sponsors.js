@@ -35,6 +35,12 @@ import Falkor from "../../static/images/sponsors/FS_Purple.png";
 import TekSystems from "../../static/images/logos/teksystems.png"
 import ExpelDark from "../../static/images/sponsors/expel-dark-mode.png"
 import ExpelLight from "../../static/images/sponsors/expel-light-mode.png"
+import AmazonDark from "../../static/images/sponsors/amazon-dark-mode.png"
+import AmazonLight from "../../static/images/sponsors/amazon-light-mode.png"
+import Turngate from "../../static/images/sponsors/turn-gate.png"
+import Phosphorus from "../../static/images/sponsors/phosphorus.png"
+import RecordedFuture from "../../static/images/sponsors/recorded-future.png"
+import Runza from "../../static/images/sponsors/runza-logo-tagline.webp"
 
 import "./Sponsors.scss";
 
@@ -142,78 +148,46 @@ export default class Sponsors extends Component {
                         alt="Guidepoint Security"/>
                     </a>
                   </div>
-                  {/* <div className='sub-party-logos'>
+                  <div className='sub-party-logos'>
                     <span className='sub-party-logos'>
-                      <a href="https://www.axonius.com/"
+                      <a href="https://phosphorus.io/"
                         target="_blank"
                         rel='noopener noreferrer'
-                        className='all-bright dark-mode-logo'>
-                        <img src={Axonius}
+                        className='dark-mode-logo'>
+                        <img src={Phosphorus}
                           className='spons-img sub-party-spons'
-                          alt="Axonius"/>
+                          alt="Phosphorus"/>
                       </a>
-                      <a href="https://www.axonius.com/"
+                      <a href="https://phosphorus.io/"
                         target="_blank"
                         rel='noopener noreferrer'
                         className='light-mode-logo'>
-                        <img src={Axonius}
+                        <img src={Phosphorus}
                           className='spons-img sub-party-spons'
-                          alt="Axonius"/>
+                          alt="Phosphorus"/>
                       </a>
 
-                      <a href="https://www.code42.com/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='all-bright dark-mode-logo'>
-                        <img src={Code42}
-                          className='spons-img sub-party-spons'
-                          alt="Code42"/>
-                      </a>
-                      <a href="https://www.code42.com/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='light-mode-logo'>
-                        <img src={Code42}
-                          className='spons-img sub-party-spons'
-                          alt="Code42"/>
-                      </a>
                     </span>
                     <span className='sub-party-logos'>
-                      <a href="https://www.tanium.com/"
+                      <a href="https://www.recordedfuture.com/"
                         target="_blank"
                         rel='noopener noreferrer'
                         className='all-bright dark-mode-logo'>
-                        <img src={Tanium}
+                        <img src={RecordedFuture}
                           className='spons-img sub-party-spons'
-                          alt="Tanium"/>
+                          alt="Recorded Future"/>
                       </a>
-                      <a href="https://www.tanium.com/"
+                      <a href="https://www.recordedfuture.com/"
                         target="_blank"
                         rel='noopener noreferrer'
                         className='light-mode-logo'>
-                        <img src={Tanium}
+                        <img src={RecordedFuture}
                           className='spons-img sub-party-spons'
-                          alt="Tanium"/>
+                          alt="Recorded Future"/>
                       </a>
 
-                      <a href="https://www.wiz.io/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='all-bright dark-mode-logo'>
-                        <img src={Wiz}
-                          className='spons-img sub-party-spons'
-                          alt="Wiz"/>
-                      </a>
-                      <a href="https://www.wiz.io/"
-                        target="_blank"
-                        rel='noopener noreferrer'
-                        className='light-mode-logo'>
-                        <img src={Wiz}
-                          className='spons-img sub-party-spons'
-                          alt="Wiz"/>
-                      </a>
                     </span>
-                  </div> */}
+                  </div>
 
 
 
@@ -299,6 +273,22 @@ export default class Sponsors extends Component {
                       <img src={ExpelDark}
                         className='spons-img gold-spons'
                         alt="Expel"/>
+                    </a>
+                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
+                      target="_blank"
+                      className='light-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AmazonLight}
+                        className='spons-img silver-spons'
+                        alt="Amazon Security"/>
+                    </a>
+                    <a href="https://www.amazon.jobs/content/en/teams/amazon-security"
+                      target="_blank"
+                      className='dark-mode-logo'
+                      rel='noopener noreferrer'>
+                      <img src={AmazonDark}
+                        className='spons-img silver-spons'
+                        alt="Amazon Security"/>
                     </a>
                   </div>
 
@@ -565,6 +555,13 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="TEKsystems"/>
                     </a>
+                    <a href="https://www.runza.com/"
+                      target="_blank"
+                      rel='noopener noreferrer'>
+                      <img src={Runza}
+                        className='spons-img other-spons'
+                        alt="Runza"/>
+                    </a>
                     <br />
                   </div>
 
@@ -605,6 +602,22 @@ export default class Sponsors extends Component {
                           <img src={Wiz}
                             className='spons-img fdbev-spons'
                             alt="Wiz"/>
+                        </a>
+                        <a href="https://www.turngate.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='all-bright dark-mode-logo'>
+                          <img src={Turngate}
+                            className='spons-img fdbev-spons'
+                            alt="Wiz"/>
+                        </a>
+                        <a href="https://www.turngate.io/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={Turngate}
+                            className='spons-img fdbev-spons'
+                            alt="Turngate"/>
                         </a>
                       </div>
                     </div>
