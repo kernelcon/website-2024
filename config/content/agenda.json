@@ -512,7 +512,7 @@
       "bio": ""
     }]
   }, {
-    "time": "1930",
+    "time": "1900",
     "minutes": "60",
     "roomIndex": [0, 1],
     "talkTitle": "Evening Reception (dinner included!)",
@@ -535,7 +535,7 @@
       "bio": ""
     }]
   },{
-    "time": "2030",
+    "time": "2000",
     "minutes": "60",
     "roomIndex": [0, 1],
     "talkTitle": "Kernel Panic Party",
