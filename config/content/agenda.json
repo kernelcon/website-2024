@@ -664,25 +664,25 @@
     "time": "1030",
     "minutes": "60",
     "roomIndex": [0],
-    "talkTitle": "The Groundhog's Revenge: Rethinking Your Grand Strategy",
-    "talkDescription": "Too many organizations have opted into the false narrative that with the right technology and outsourcing, sprinkled with a little artificial intelligence, they are buying down risk. Then it happens. The groundhog is back for revenge, and this time, artificial intelligence can't help. We'll dive into how adopting a strategy shift, known as zero trust, aligns with business' strategic planning above all other methods.\r\n\r\nZero Trust requires a strategic, customer-obsessed & enterprise-wide approach. We'll dispel myths and highlight how we can embrace the opportunity at hand. Success is rooted in leveraging the right mental accounting techniques and choice bracketing, which provides the path out of Groundhog Day and enables security professions to make a positive impact.",
+    "talkTitle": "Hackers in Jurassic Park: When Attackers Find a Way",
+    "talkDescription": "Story time with a hacker.  This talk focuses on explaining real stories from the trenches.  It focuses on the risks and how we find them.",
     "talkMinDesc": "",
-    "talkTechLevel": "1",
-    "talkId": "TheGroundhogsRevengeRethinkingYourGrandStrategy",
+    "talkTechLevel": "3",
+    "talkId": "HackersinJurassicParkWhenAttackersFindaWay",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Robert LaMagna-Reiter",
-      "speakerId": "RobertLaMagnaReiter",
-      "company": "Hudl",
+      "name": "Kevin Johnson",
+      "speakerId": "KevinJohnson",
+      "company": "Secure Ideas",
       "hidden": false,
-      "twitter": "",
+      "twitter": "https://twitter.com/secureideas",
       "github": "",
-      "linkedIn": "https://www.linkedin.com/in/robertlamagnareiter/",
-      "image": "Robert_LaMagaReiter.jpg",
-      "bio": "As CISO, Robert leads information security strategies and risk management; architecture and engineering; compliance, privacy and IT governance. Leveraging 18+ years of expertise, Robert draws on experience from roles in the transportation, government comms, retail, e-commerce, managed services & SaaS industries. Robert also serves as Zero Trust Initiative Leader for the CyberTheory Institute, and Zero Trust Expert Committee Member for the Cloud Security Alliance.\n"
+      "linkedIn": "",
+      "image": "kevin_johnson.png",
+      "bio": "Kevin Johnson is the Chief Executive Officer of Secure Ideas. Kevin has a long history in the IT field including system administration, network architecture and application development. He has been involved in building incident response and forensic teams, architecting security solutions for large enterprises and penetration testing everything from government agencies to Fortune 100 companies. In addition, Kevin is a faculty member at IANS and was an instructor and author for the SANS Institute.\n"
     }]
   }, {
     "time": "1030",
@@ -792,24 +792,24 @@
     "time": "1400",
     "minutes": "60",
     "roomIndex": [0],
-    "talkTitle": "Hackers in Jurassic Park: When Attackers Find a Way",
-    "talkDescription": "Story time with a hacker.  This talk focuses on explaining real stories from the trenches.  It focuses on the risks and how we find them.",
-    "talkTechLevel": "3",
-    "talkId": "HackersinJurassicParkWhenAttackersFindaWay",
+    "talkTitle": "The Groundhog's Revenge: Rethinking Your Grand Strategy",
+    "talkDescription": "Too many organizations have opted into the false narrative that with the right technology and outsourcing, sprinkled with a little artificial intelligence, they are buying down risk. Then it happens. The groundhog is back for revenge, and this time, artificial intelligence can't help. We'll dive into how adopting a strategy shift, known as zero trust, aligns with business' strategic planning above all other methods.\r\n\r\nZero Trust requires a strategic, customer-obsessed & enterprise-wide approach. We'll dispel myths and highlight how we can embrace the opportunity at hand. Success is rooted in leveraging the right mental accounting techniques and choice bracketing, which provides the path out of Groundhog Day and enables security professions to make a positive impact.",
+    "talkTechLevel": "1",
+    "talkId": "TheGroundhogsRevengeRethinkingYourGrandStrategy",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Kevin Johnson",
-      "speakerId": "KevinJohnson",
-      "company": "Secure Ideas",
+      "name": "Robert LaMagna-Reiter",
+      "speakerId": "RobertLaMagnaReiter",
+      "company": "Hudl",
       "hidden": false,
-      "twitter": "https://twitter.com/secureideas",
+      "twitter": "",
       "github": "",
-      "linkedIn": "",
-      "image": "kevin_johnson.png",
-      "bio": "Kevin Johnson is the Chief Executive Officer of Secure Ideas. Kevin has a long history in the IT field including system administration, network architecture and application development. He has been involved in building incident response and forensic teams, architecting security solutions for large enterprises and penetration testing everything from government agencies to Fortune 100 companies. In addition, Kevin is a faculty member at IANS and was an instructor and author for the SANS Institute.\n"
+      "linkedIn": "https://www.linkedin.com/in/robertlamagnareiter/",
+      "image": "Robert_LaMagaReiter.jpg",
+      "bio": "As CISO, Robert leads information security strategies and risk management; architecture and engineering; compliance, privacy and IT governance. Leveraging 18+ years of expertise, Robert draws on experience from roles in the transportation, government comms, retail, e-commerce, managed services & SaaS industries. Robert also serves as Zero Trust Initiative Leader for the CyberTheory Institute, and Zero Trust Expert Committee Member for the Cloud Security Alliance.\n"
     }]
   }, {
     "time": "1400",
