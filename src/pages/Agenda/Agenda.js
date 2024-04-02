@@ -16,6 +16,7 @@ import John from "../../static/images/trainers/john2-square.jpg";
 import villageConfig from 'villageConfig';
 import competitionConfig from 'competitionConfig';
 import entertainmentConfig from 'entertainmentConfig';
+import activityConfig from 'activityConfig';
 
 import './Agenda.scss';
 
@@ -78,6 +79,7 @@ export default class Agenda extends Component {
           <Tab tabFor="speakers">Speakers</Tab>
           <Tab tabFor="villages">Villages</Tab>
           <Tab tabFor="competitions">Competitions</Tab>
+          <Tab tabFor="activities">Activities</Tab>
           <Tab tabFor="entertainment">Entertainment</Tab>
           {/* <Tab tabFor="careers">Careers</Tab> */}
         </TabList>
@@ -236,6 +238,15 @@ export default class Agenda extends Component {
           <div className='text-area'>
 
             <CallOuts title='Entertainment' config={entertainmentConfig} />
+
+          </div>
+        </TabPanel>
+
+
+        <TabPanel tabId="activities">
+          <div className='text-area'>
+
+            <CallOuts title='Activities' config={activityConfig} />
 
           </div>
         </TabPanel>

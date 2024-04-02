@@ -626,6 +626,7 @@ module.exports = function(webpackEnv) {
       speakerConfig: JSON.stringify(require('./content/speakers.json')), //eslint-disable-line
       dateConfig: JSON.stringify(require('./content/dates.json')), //eslint-disable-line
       entertainmentConfig: JSON.stringify(require('./content/entertainment.json')), //eslint-disable-line
+      activityConfig: JSON.stringify(require('./content/activity.json')), //eslint-disable-line
       faqConfig: JSON.stringify(require('./content/faq.json')), //eslint-disable-line
       ocConfig: JSON.stringify(require('./content/oc.json')), //eslint-disable-line
       trainingConfig: JSON.stringify(require('./content/training.json')), //eslint-disable-line
