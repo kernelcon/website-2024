@@ -279,7 +279,7 @@
   }, {
     "time": "1630",
     "minutes": "60",
-    "roomIndex": [1],
+    "roomIndex": [0],
     "talkTitle": "Who's going to secure the code our army of robots are going to be writing?",
     "talkDescription": "Large Language Models (LLM) are writing a significant portion of our code through tools like Copilot, and now promising new companies like Sweep are starting to write wholesale features for us. The LLMs are trained on the vulnerable code we've already written, so of course multiple studies have now confirmed that they offer the same vulnerability density.\r\nSecurity today is often already outnumbered by developers at rates like 1000:1. When we started to add LLMs to the developer toolchain, we began barreling towards a comically hopeless situation where the ratio of code developed vs. code secured is no longer tenable.\r\n\r\nThere are too many humans involved in critical chokepoints that have no hope of meaningfully securing the deluge of code that is coming.\r\nI'd like the opportunity to make the case that the only way to keep up is to change our engineering practices and introduce virtual security engineers, powered by a mix of LLMs and traditional technologies.",
     "talkTechLevel": "3",
@@ -373,7 +373,7 @@
   },  {
     "time": "1630",
     "minutes": "60",
-    "roomIndex": [0],
+    "roomIndex": [1],
     "talkTitle": "Thinking outside the Sandbox: Decoding and Defeating the Node.js Permission Model",
     "talkDescription": "Thinking Outside the Sandbox: Decoding and Defeating the Node.js Permission Model takes a deep dive into the Node.js Module-based and Process-based permissions. This talk will delve into the architecture and implementation of these permission models, providing a clear understanding of how they operate within the Node.js ecosystem. We will explore both the strengths and weaknesses inherent in these systems, drawing attention to critical vulnerabilities and bypass techniques.\r\n\r\nWe will explore several CVEs (Common Vulnerabilities and Exposures) that I was able to uncover that have been fixed, along with a couple issues that are known but remain unaddressed, posing ongoing risks. By examining these security gaps, the presentation aims to equip attendees with the knowledge to better secure their Node.js applications or to motivate others into diving in and help squash some Node.js core bugs.",
     "talkMinDesc": "",
