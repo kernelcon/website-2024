@@ -277,28 +277,27 @@
       "bio": "Dr. Anmol Agarwal is a security researcher at Nokia and is focused on securing AI and Machine Learning in 5G and 6G. She holds a doctoral degree in cybersecurity analytics and a master's degree in computer science. In her free time, she enjoys giving back to the community and is an active industry mentor. She will be representing herself at this event as an individual security researcher; she is not representing her employer.\n"
     }]
   }, {
-    "time": "1500",
+    "time": "1630",
     "minutes": "60",
-    "roomIndex": [0],
-    "talkTitle": "Thinking outside the Sandbox: Decoding and Defeating the Node.js Permission Model",
-    "talkDescription": "Thinking Outside the Sandbox: Decoding and Defeating the Node.js Permission Model takes a deep dive into the Node.js Module-based and Process-based permissions. This talk will delve into the architecture and implementation of these permission models, providing a clear understanding of how they operate within the Node.js ecosystem. We will explore both the strengths and weaknesses inherent in these systems, drawing attention to critical vulnerabilities and bypass techniques.\r\n\r\nWe will explore several CVEs (Common Vulnerabilities and Exposures) that I was able to uncover that have been fixed, along with a couple issues that are known but remain unaddressed, posing ongoing risks. By examining these security gaps, the presentation aims to equip attendees with the knowledge to better secure their Node.js applications or to motivate others into diving in and help squash some Node.js core bugs.",
-    "talkMinDesc": "",
-    "talkTechLevel": "4",
-    "talkId": "ThinkingoutsidetheSandboxDecodingandDefeatingtheNodejsPermissionModel",
+    "roomIndex": [1],
+    "talkTitle": "Who's going to secure the code our army of robots are going to be writing?",
+    "talkDescription": "Large Language Models (LLM) are writing a significant portion of our code through tools like Copilot, and now promising new companies like Sweep are starting to write wholesale features for us. The LLMs are trained on the vulnerable code we've already written, so of course multiple studies have now confirmed that they offer the same vulnerability density.\r\nSecurity today is often already outnumbered by developers at rates like 1000:1. When we started to add LLMs to the developer toolchain, we began barreling towards a comically hopeless situation where the ratio of code developed vs. code secured is no longer tenable.\r\n\r\nThere are too many humans involved in critical chokepoints that have no hope of meaningfully securing the deluge of code that is coming.\r\nI'd like the opportunity to make the case that the only way to keep up is to change our engineering practices and introduce virtual security engineers, powered by a mix of LLMs and traditional technologies.",
+    "talkTechLevel": "3",
+    "talkId": "Whosgoingtosecurethecodeourarmyofrobotsaregoingtobewriting",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Matt Austin",
-      "speakerId": "MattAustin",
-      "company": "Pixee.ai",
+      "name": "Arshan Dabirsiaghi",
+      "speakerId": "ArshanDabirsiaghi",
+      "company": "Pixee",
       "hidden": false,
       "twitter": "",
       "github": "",
-      "linkedIn": "https://www.linkedin.com/in/matt-/",
-      "image": "Matt_Austin.jpg",
-      "bio": "Matt is a husband, a dad, and a hacker and Principal Security Researcher at Pixee.ai with 14+ years in security research and moonlighting BugBounty. \n"
+      "linkedIn": "https://www.linkedin.com/in/arshan-dabirsiaghi/",
+      "image": "Arshan_Dabirsiaghi.png",
+      "bio": "Arshan is a security researcher pretending to be a software executive, with many years of experience advising organizations on code security. He has spoken at conferences like Bluehat, Blackhat and OWASP, and definitely wrote his own bio. He is also a co-founder of Contrast Security, a cybersecurity unicorn focused on vulnerability discovery through runtime instrumentation. He now serves as CTO of Pixee where he's done finding and asking about security issues -- he's just fixing it for you.\n"
     }]
   }, {
     "time": "1500",
@@ -371,28 +370,29 @@
       "image": "Jason_Downey.jpg",
       "bio": "Jason Downey has over ten years of experience in IT and information security ranging from roles in network security to additional experience in systems administration. Jason has spoken in front of various audiences ranging from youth initiatives to major security conferences, while creating informational web content for beginning security practitioners. Jason excels at a variety of penetration testing tactics and is well known for his vishing and social engineering expertise.\n"
     }]
-  }, {
+  },  {
     "time": "1630",
     "minutes": "60",
-    "roomIndex": [1],
-    "talkTitle": "Who's going to secure the code our army of robots are going to be writing?",
-    "talkDescription": "Large Language Models (LLM) are writing a significant portion of our code through tools like Copilot, and now promising new companies like Sweep are starting to write wholesale features for us. The LLMs are trained on the vulnerable code we've already written, so of course multiple studies have now confirmed that they offer the same vulnerability density.\r\nSecurity today is often already outnumbered by developers at rates like 1000:1. When we started to add LLMs to the developer toolchain, we began barreling towards a comically hopeless situation where the ratio of code developed vs. code secured is no longer tenable.\r\n\r\nThere are too many humans involved in critical chokepoints that have no hope of meaningfully securing the deluge of code that is coming.\r\nI'd like the opportunity to make the case that the only way to keep up is to change our engineering practices and introduce virtual security engineers, powered by a mix of LLMs and traditional technologies.",
-    "talkTechLevel": "3",
-    "talkId": "Whosgoingtosecurethecodeourarmyofrobotsaregoingtobewriting",
+    "roomIndex": [0],
+    "talkTitle": "Thinking outside the Sandbox: Decoding and Defeating the Node.js Permission Model",
+    "talkDescription": "Thinking Outside the Sandbox: Decoding and Defeating the Node.js Permission Model takes a deep dive into the Node.js Module-based and Process-based permissions. This talk will delve into the architecture and implementation of these permission models, providing a clear understanding of how they operate within the Node.js ecosystem. We will explore both the strengths and weaknesses inherent in these systems, drawing attention to critical vulnerabilities and bypass techniques.\r\n\r\nWe will explore several CVEs (Common Vulnerabilities and Exposures) that I was able to uncover that have been fixed, along with a couple issues that are known but remain unaddressed, posing ongoing risks. By examining these security gaps, the presentation aims to equip attendees with the knowledge to better secure their Node.js applications or to motivate others into diving in and help squash some Node.js core bugs.",
+    "talkMinDesc": "",
+    "talkTechLevel": "4",
+    "talkId": "ThinkingoutsidetheSandboxDecodingandDefeatingtheNodejsPermissionModel",
     "postCon": {
       "pdfLink": "",
       "videoLink": ""
     },
     "authors": [{
-      "name": "Arshan Dabirsiaghi",
-      "speakerId": "ArshanDabirsiaghi",
-      "company": "Pixee",
+      "name": "Matt Austin",
+      "speakerId": "MattAustin",
+      "company": "Pixee.ai",
       "hidden": false,
       "twitter": "",
       "github": "",
-      "linkedIn": "https://www.linkedin.com/in/arshan-dabirsiaghi/",
-      "image": "Arshan_Dabirsiaghi.png",
-      "bio": "Arshan is a security researcher pretending to be a software executive, with many years of experience advising organizations on code security. He has spoken at conferences like Bluehat, Blackhat and OWASP, and definitely wrote his own bio. He is also a co-founder of Contrast Security, a cybersecurity unicorn focused on vulnerability discovery through runtime instrumentation. He now serves as CTO of Pixee where he's done finding and asking about security issues -- he's just fixing it for you.\n"
+      "linkedIn": "https://www.linkedin.com/in/matt-/",
+      "image": "Matt_Austin.jpg",
+      "bio": "Matt is a husband, a dad, and a hacker and Principal Security Researcher at Pixee.ai with 14+ years in security research and moonlighting BugBounty. \n"
     }]
   }, {
     "time": "1730",
