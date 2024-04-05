@@ -70,8 +70,12 @@ function App() {
 					<Route exact path="/safety" component={Safety} />
 					<Route exact path="/training" component={Training} />
           			<Route exact path="/agenda" component={Agenda} />
-					<Route exact path='/dei' component={() => {
+					  <Route exact path='/dei' component={() => {
 		    			window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSezT5NG0_tkV3Wxd9D4t-58cU49Zd5t2Cun75ZkSx7GvD-KSg/viewform';
+						return null;
+		  			}}/>
+					<Route exact path='/survey' component={() => {
+		    			window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScDyy2-FvtpZI8CG0qz3GImAOKIVf_QFX6ALG8-AZwhYoXnzw/viewform';
 						return null;
 		  			}}/>
 				{/* </div> */}
